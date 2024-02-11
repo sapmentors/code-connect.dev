@@ -1,0 +1,8 @@
+{
+    "name": "Code Connect 2024 Website",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:debian-11",
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/http-server:1": {}
+    },
+    "postStartCommand": "http-server"
+}
