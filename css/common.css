@@ -550,6 +550,34 @@ main, header {
   width: clamp(4rem, 20% , 20rem);
 }
 
+.cc-sponsors {
+  gap: 2rem;
+  display: flex;
+  margin-block: 2rem 8rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cc-logo-container {
+  gap: 4rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cc-logo-container a {
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+}
+
+.cc-logo-container img {
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .cc-header img {
     width: 60%;
@@ -590,6 +618,10 @@ main, header {
 
   .cc-location img {
     width: clamp(4rem, 30% , 20rem);
+  }
+
+  .cc-logo-container a {
+    width: 45%;
   }
 }
 
