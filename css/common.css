@@ -578,6 +578,32 @@ main, header {
   height: 100%;
 }
 
+.cc-link {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: var(--code-connect-color);
+  color: var(--white);
+  border: 0.125rem solid var(--code-connect-color);
+  border-radius: 5rem;
+  margin-block-start: 2rem;
+  margin-inline: auto;
+  cursor: pointer;
+  font-weight: 600;
+  width: fit-content;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cc-button:is(:hover) {
+  background-color: transparent;
+  color: var(--code-connect-color);
+  font-weight: 600;
+}
+
+.cc-button:is(:focus) {
+  outline: 0.125rem solid var(--code-connect-color);
+  outline-offset: 0.125rem;
+}
+
 @media only screen and (min-width: 768px) {
   .cc-header img {
     width: 60%;
@@ -587,6 +613,10 @@ main, header {
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 1.5;
+  }
+
+  .cc-header .cc-annonce {
+    font-weight: bold;
   }
 
   .cc-header-banner span {
