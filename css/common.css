@@ -579,29 +579,34 @@ main, header {
 }
 
 .cc-link {
-  padding: 0.75rem 1.5rem;
-  font-size: 1.2rem;
-  background-color: var(--code-connect-color);
-  color: var(--white);
-  border: 0.125rem solid var(--code-connect-color);
-  border-radius: 5rem;
-  margin-block-start: 2rem;
-  margin-inline: auto;
   cursor: pointer;
   font-weight: 600;
+  font-size: 1.2rem;
   width: fit-content;
+  color: var(--white);
+  border-radius: 5rem;
+  margin-inline: auto;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  margin-block-start: 2rem;
+  background-color: var(--code-connect-color);
   transition: background-color 0.3s ease-in-out;
+  border: 0.125rem solid var(--code-connect-color);
 }
 
-.cc-button:is(:hover) {
+.cc-link:is(:hover) {
+  font-weight: 600;
+  text-decoration: none;
   background-color: transparent;
   color: var(--code-connect-color);
-  font-weight: 600;
 }
 
-.cc-button:is(:focus) {
-  outline: 0.125rem solid var(--code-connect-color);
+a.cc-link:is(:focus, :active, :focus:hover) {
+  color: var(--white);
+  text-decoration: none;
   outline-offset: 0.125rem;
+  background-color: var(--code-connect-color);
+  outline: 0.125rem solid var(--code-connect-color);
 }
 
 @media only screen and (min-width: 768px) {
