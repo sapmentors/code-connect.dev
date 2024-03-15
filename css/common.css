@@ -608,6 +608,15 @@ a.cc-link:is(:focus, :active, :focus:hover) {
   background-color: var(--code-connect-color);
   outline: 0.125rem solid var(--code-connect-color);
 }
+ 
+p.cc-annonce-codejam {
+  margin-block-start: 4rem;
+}
+
+p.cc-annonce-codejam a {
+  font-weight: bold;
+  display: inline-block;
+}
 
 @media only screen and (min-width: 768px) {
   .cc-header img {
