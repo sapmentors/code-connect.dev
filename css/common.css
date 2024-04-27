@@ -702,3 +702,60 @@ footer a:is(:focus, .active, .active:hover) {
 footer a:is(.active) {
   text-decoration-color: var(--white);
 }
+
+.cc-faq {
+ margin-block: 3rem 6rem;
+}
+
+.cc-faq h2 {
+  text-align: center;
+}
+
+.cc-faq ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.cc-faq a {
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cc-faq li {
+  width: 100%;
+}
+
+.cc-faq li {
+  align-self: center;
+  text-align: center;
+}
+
+.cc-faq h3 {
+ font-size: var(--type-0);
+ padding-block: 0;
+ margin-block: 2rem 0;
+ color: var(--code-connect-color);
+ cursor: pointer;
+}
+
+.cc-faq p {
+ margin-block-start: 0.5rem;
+ margin-block-end: 0;
+ display: none;
+}
+
+.cc-faq p.active {
+  display: block;
+ }
+
+@media only screen and (min-width: 768px) {
+  .cc-faq li {
+    width: 100%;
+    align-self: flex-start;
+    text-align: start;
+  }
+}
