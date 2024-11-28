@@ -4,7 +4,6 @@
   --brand-color-alt: #0090DA;
   --dark-brand-color: #242424;
   --text-color: #686868;
-  --text-color-white: #fff;
   --white: #fff;
   --sucess-color: #30914c;
   --code-connect-color: #3B4673;
@@ -20,7 +19,7 @@
   --type-4: clamp(2.0738rem, 1.7943rem + 1.3973vw, 3.0519rem);
   --type-5: clamp(3.5rem, 2.1786rem + 6.6071vw, 8.125rem);
 }
-/**/
+
 @media (prefers-reduced-motion: reduce) {
   *:not(svg, path) {
     animation: none !important;
