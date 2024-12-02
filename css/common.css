@@ -449,20 +449,25 @@ a:is(.active) {
 	line-height: 1.3;
 	padding: .7rem;
 	margin-inline-end: .6rem;
+	background: transparent;
 }
 
-a.cc-btn-shape:focus-within {
+
+a.cc-btn-shape:focus-within,
+button.cc-btn-shape:focus-within {
 	outline: 2px solid var(--text-color-contrast);
 	outline-offset: -4px;
 }
 
-a.cc-btn-shape:is(:hover) {
+a.cc-btn-shape:is(:hover),
+button.cc-btn-shape:is(:hover) {
 	text-decoration: none;
 	background: var(--dark-brand-color);
 	color: var(--text-color-contrast);
 }
 
-a.cc-btn-shape:is(:focus, .active, .active:hover) {
+a.cc-btn-shape:is(:focus, .active, .active:hover),
+button.cc-btn-shape:is(:focus, .active, .active:hover) {
 	text-decoration: none;
 	background: var(--dark-brand-color);
 	color: var(--text-color-contrast);
@@ -601,6 +606,14 @@ header, main, footer {
 	font-weight: 900;
 	color: var(--text-color);
 	margin: 0;
+}
+
+.cc-links-container {
+	gap: 1.4rem;
+	display: flex;
+	align-items: flex-start;
+	margin-block-start: 2rem;
+	flex-wrap: wrap;
 }
 
 .cc-teaser {
