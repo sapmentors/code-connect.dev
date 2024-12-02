@@ -574,13 +574,37 @@ a.cc-btn-shape:is(:focus, .active, .active:hover) {
 }
 
 /* ------------------------------ Main -------------------------------  */
+
+html {
+
+}
+
 body {
 	margin: 0;
 	background-color: var(--background-color);
-	background-image: url(../images/lines.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url(../images/lines2.svg);
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	background-position: 0 0;
 }
+
+.bg {
+	position: relative;
+	height: max-content;
+}
+
+.bg:after {
+	display: block;
+	z-index: -1;
+	content: url('../images/lines.svg');
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: var(--background-color);
+	line-height: 0;
+}
+
 
 header, main, footer {
 	max-width: 1100px;
@@ -593,7 +617,7 @@ header, main, footer {
 	box-shadow: 0px 0px 2px rgba(34, 53, 72, 0.4), 0px 8px 16px rgba(34, 53, 72, 0.16);
 	border-radius: 1.25rem;
 	padding: 2.5rem 1.5rem;
-	backdrop-filter: blur(5px);
+	/* backdrop-filter: blur(5px); */
 }
 
 .cc-content-box h2 {
