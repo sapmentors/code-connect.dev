@@ -413,14 +413,15 @@ ul {
 
 /* ---------------------- Interactive Elements ---------------------------  */
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	text-decoration-color: currentColor;
-	color: var(--code-connect-color);
-	transition: all 0.1s ease;
+	color: var(--text-color);
+	transition: text-decoration 0.2s ease-in-out;
+	text-underline-offset: initial;
 }
 
 a:is(:hover) {
-	color: var(--code-connect-color);
+	/* color: var(--text-color); */
 	text-decoration: underline;
 	text-decoration-color: currentColor;
 	text-decoration-thickness: 0.125rem;
@@ -429,7 +430,7 @@ a:is(:hover) {
 
 a:is(:focus, .active, .active:hover) {
 	outline: none;
-	color: var(--code-connect-color);
+	/* color: var(--text-color); */
 	text-decoration: underline;
 	text-decoration-color: currentColor;
 	text-decoration-thickness: 0.125rem;
@@ -450,8 +451,8 @@ a:is(.active) {
 	padding: .7rem;
 	margin-inline-end: .6rem;
 	background: transparent;
+	text-decoration: none;
 }
-
 
 a.cc-btn-shape:focus-within,
 button.cc-btn-shape:focus-within {
@@ -542,40 +543,71 @@ button.cc-btn-shape:is(:focus, .active, .active:hover) {
 .cc-event-marker svg {
 	width: 2.6rem;
 	height: 3.9rem;
+	color: rgb(var(--white));
 }
 
-.cc-event-marker-codejam {
+a.cc-event-marker-codejam {
 	background-color: var(--brand-color-codejam);
+	color: var(--brand-color-codejam);
 }
 
-.cc-event-marker-codeconnect {
+a.cc-event-marker-codeconnect {
 	background-color: var(--logo-color);
+	color: var(--logo-color);
 }
 
-.cc-event-marker-recap {
+a.cc-event-marker-recap {
 	background-color: var(--brand-color-recap);
+	color: var(--brand-color-recap);
 }
 
-.cc-event-marker-ui5con {
+a.cc-event-marker-ui5con {
 	background-color: var(--brand-color-ui5con);
+	color: var(--brand-color-ui5con);
 }
 
-.cc-event-marker-hanaconf {
+a.cc-event-marker-hanaconf {
 	background-color: var(--brand-color-hana);
+	color: var(--brand-color-hana);
+}
+
+a.cc-event-marker:hover,
+a.cc-event-marker:focus {
+	outline: 2px solid currentColor;
+	outline-offset: 2px;
 }
 
 .cc-header time {
-	display: block;
+	display: inline-block;
 	font-weight: 900;
 	font-size: 2.3rem;
 	line-height: 1;
 	color: var(--dark-brand-color);
-	margin-block-end: 2.5rem;
 }
 
 .cc-header p {
 	line-height: 2;
 	color: var(--dark-brand-color);
+}
+
+.cc-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-block-end: 2.5rem;
+}
+
+.cc-nav ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	list-style-type: none;
+}
+
+.cc-nav li {
+	margin-inline: 1rem;
+	display: inline-block;
 }
 
 /* ------------------------------ Main -------------------------------  */
@@ -610,7 +642,6 @@ body {
 	line-height: 0;
 }
 
-
 header, main, footer {
 	max-width: 1100px;
 	margin: 0 auto 5.5rem;
@@ -622,7 +653,7 @@ header, main, footer {
 	box-shadow: 0px 0px 2px rgba(34, 53, 72, 0.4), 0px 8px 16px rgba(34, 53, 72, 0.16);
 	border-radius: 1.25rem;
 	padding: 2.5rem 1.5rem;
-	/* backdrop-filter: blur(5px); */
+	backdrop-filter: blur(5px);
 }
 
 .cc-content-box h2 {
