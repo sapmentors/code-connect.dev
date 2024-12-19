@@ -483,6 +483,7 @@ a:is(.active) {
 	margin-inline-end: .6rem;
 	background: transparent;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 a.cc-btn-shape:focus-within,
