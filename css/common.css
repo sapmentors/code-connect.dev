@@ -600,32 +600,38 @@ header {
 }
 
 
-a.cc-event-marker-codejam {
+a.cc-event-marker-codejam,
+span.cc-event-marker-codejam {
 	background-color: var(--brand-color-codejam);
 	color: var(--brand-color-codejam);
 }
 
-a.cc-event-marker-codeconnect {
+a.cc-event-marker-codeconnect,
+span.cc-event-marker-codeconnect {
 	background-color: var(--logo-color);
 	color: var(--logo-color);
 }
 
-a.cc-event-marker-recap {
+a.cc-event-marker-recap,
+span.cc-event-marker-recap {
 	background-color: var(--brand-color-recap);
 	color: var(--brand-color-recap);
 }
 
-a.cc-event-marker-ui5con {
+a.cc-event-marker-ui5con,
+span.cc-event-marker-ui5con {
 	background-color: var(--brand-color-ui5con);
 	color: var(--brand-color-ui5con);
 }
 
-a.cc-event-marker-hanaconf {
+a.cc-event-marker-hanaconf,
+span.cc-event-marker-hanaconf {
 	background-color: var(--brand-color-hana);
 	color: var(--brand-color-hana);
 }
 
-a.cc-event-marker-hanaconf svg {
+a.cc-event-marker-hanaconf svg,
+span.cc-event-marker-hanaconf svg {
 	height: 2.5rem;
 }
 
