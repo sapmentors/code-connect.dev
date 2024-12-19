@@ -718,11 +718,21 @@ a.cc-event-marker:focus {
 }
 
 .cc-links-container {
+	display: none;
 	gap: 1.4rem;
-	display: flex;
 	align-items: flex-start;
 	margin-block-start: 2rem;
 	flex-wrap: wrap;
+	transition: opacity 200ms linear, display 200ms allow-discrete;
+	opacity: 0;
+}
+
+.cc-links-container.open {
+	opacity: 1;
+	display: flex;
+	@starting-style {
+		opacity: 0
+	};
 }
 
 .cc-teaser {
