@@ -22,6 +22,9 @@
 	--type-3: clamp(1.7281rem, 1.5244rem + 1.0188vw, 2.4413rem);
 	--type-4: clamp(2.0738rem, 1.7943rem + 1.3973vw, 3.0519rem);
 	--type-5: clamp(3.5rem, 2.1786rem + 6.6071vw, 8.125rem);
+
+	font-family: "Inter", sans-serif;
+	font-feature-settings: "case" 0, "dlig" 0, "frac" 0, "dnom" 0, "numr" 0, "subs" 0, "sups" 0, "tnum" 0, "zero" 0, "ss01", "ss02", "ss03", "ss04", "ss05" 0, "ss06" 0, "ss07", "ss08" 0, "cv01", "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06", "cv07", "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "cv12" 0, "cv13" 0, "cpsp" 0, "c2sc" 0, "salt" 0, "aalt" 0, "calt", "ccmp", "locl", "kern";
 }
 
 
@@ -47,7 +50,7 @@
 	}
 }
 
-@font-face {
+/* @font-face {
 	font-family: "72";
 	src: url("../fonts/72-Light.woff2") format("woff2");
 	font-weight: 300;
@@ -77,7 +80,7 @@
 	font-weight: 900;
 	font-style: normal;
 	font-display: swap;
-}
+} */
 
 /* Document
  * ========================================================================== */
@@ -157,7 +160,7 @@ pre {
 abbr[title] {
 	text-decoration: underline;
 	-webkit-text-decoration: underline dotted;
-					text-decoration: underline dotted;
+	text-decoration: underline dotted;
 }
 ins {
 	text-decoration: none;
@@ -383,7 +386,7 @@ html {
 
 body {
 	overflow-x: hidden;
-	font-family: "72", Arial, Helvetica, sans-serif;
+	/* font-family: "72", Arial, Helvetica, sans-serif; */
 	margin: 0;
 	position: relative;
 	color: var(--text-color);
