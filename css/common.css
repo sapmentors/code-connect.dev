@@ -696,18 +696,21 @@ a.cc-event-marker:focus {
 	justify-content: space-between;
 	align-items: flex-end;
 	margin-block-end: 2.5rem;
+	flex-wrap: wrap;
 }
 
 .cc-nav ul {
-	margin: 0;
+	flex: 1 0 auto;
+	margin: 1rem 0 0;
 	padding: 0;
-	text-align: right;
+	text-align: center;
 	list-style-type: none;
 	font-size: var(--type-0);
+
 }
 
 .cc-nav li {
-	margin-inline: 1rem;
+	margin-inline: .5rem;
 	display: inline-block;
 }
 
@@ -723,6 +726,12 @@ a.cc-event-marker:focus {
 
 	.cc-header time {
 		font-size: 2.3rem;
+	}
+
+	.cc-nav ul {
+		flex: auto;
+		text-align: right;
+		margin: 0;
 	}
 }
 
@@ -887,6 +896,23 @@ footer div {
 		justify-content: flex-start;
 	}
 }
+
+dl {
+	margin: 0 0 3rem;
+	padding: 0;
+	line-height: 1.35;
+}
+
+dt {
+	font-weight: 700;
+	margin-block-end: .2rem;
+}
+
+dd {
+	margin-inline-start: .5rem;
+	margin-block-end: 1rem;
+}
+
 
 footer a {
 
