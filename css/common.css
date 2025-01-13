@@ -946,4 +946,8 @@ footer a:is(.active) {
 		--btn-bg-color: #222728;
 		--white: 41, 49, 51;
 	}
+
+	.cc-event-marker svg {
+		color: var(--text-color);
+	}
 }
