@@ -759,6 +759,10 @@ a.cc-event-marker:focus {
 	margin: 0;
 }
 
+.cc-content-box h2:has( ~ p) {
+	margin-block-end: 2rem;
+}
+
 .cc-links-container {
 	display: none;
 	gap: 1.4rem;
