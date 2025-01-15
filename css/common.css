@@ -773,6 +773,10 @@ a.cc-event-marker:focus {
 	opacity: 0;
 }
 
+.cc-links-container svg {
+	margin-inline-end: .3rem;
+}
+
 .cc-links-container.open {
 	opacity: 1;
 	display: flex;
