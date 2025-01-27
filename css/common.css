@@ -1091,8 +1091,8 @@ svg.asbrucon {
 	fill: #000;
 }
 
-svg.brandeis text {
-	fill: #0C3C60;
+svg.brandeis {
+	color: #0C3C60;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1108,7 +1108,7 @@ svg.brandeis text {
 		fill: #fff;
 	}
 
-	svg.brandeis text {
-		fill: #fff;
+	svg.brandeis {
+		color: #fff;
 	}
 }
