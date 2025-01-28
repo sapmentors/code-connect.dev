@@ -1095,6 +1095,10 @@ svg.brandeis {
 	color: #0C3C60;
 }
 
+svg.cbs {
+	color: #000;
+}
+
 @media (prefers-color-scheme: dark) {
 
 	.sponsors-badge.diamond,
@@ -1109,6 +1113,10 @@ svg.brandeis {
 	}
 
 	svg.brandeis {
+		color: #fff;
+	}
+
+	svg.cbs {
 		color: #fff;
 	}
 }
