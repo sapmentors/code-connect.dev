@@ -834,7 +834,7 @@ a.cc-event-marker:focus {
 }
 
 .cc-logo-container {
-	gap: 1rem;
+	gap: 2rem;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -848,7 +848,7 @@ a.cc-event-marker:focus {
 }
 
 .cc-logo-container a {
-	flex: 1 0 auto;
+	flex: 1 0 30%;
 }
 
 .cc-logo-container a:is(:hover, :focus) {
