@@ -1099,6 +1099,10 @@ svg.cbs {
 	color: #000;
 }
 
+svg.blackwyse {
+	color: #05102D;
+}
+
 @media (prefers-color-scheme: dark) {
 
 	.sponsors-badge.diamond,
@@ -1117,6 +1121,10 @@ svg.cbs {
 	}
 
 	svg.cbs {
+		color: #fff;
+	}
+
+	svg.blackwyse {
 		color: #fff;
 	}
 }
