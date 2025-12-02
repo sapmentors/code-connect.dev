@@ -794,7 +794,7 @@ a.cc-event-marker:focus {
 			width: 70%;
 			height: 2px;
 			margin: auto;
-			background: var(--btn-bg-color);
+			background: var(--text-color);
 			opacity: .2;
 		}
 	}
