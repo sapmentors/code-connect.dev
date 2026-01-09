@@ -1,164 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Code Connect 2026</title>
+    <meta
+      name="description"
+      content="Join us for 4 consecutive days of groundbreaking conferences and events all under the banner of Code Connect! Same location, triple the insights, innovation, and networking opportunities." />
+    <meta
+      name="keywords"
+      content="SAP, reCAP, Cloud, SAPCAP, OpenUI5, DevOps, SAPUI5, UI5con, UI5 Web Components, Web Components, Webcomponents, Open Source" />
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Code Connect 2026</title>
-	<meta name="description"
-		content="Join us for 4 consecutive days of groundbreaking conferences and events all under the banner of Code Connect! Same location, triple the insights, innovation, and networking opportunities." />
-	<meta name="keywords"
-		content="SAP, reCAP, Cloud, SAPCAP, OpenUI5, DevOps, SAPUI5, UI5con, UI5 Web Components, Web Components, Webcomponents, Open Source" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://code-connect.dev/" />
+    <meta
+      property="twitter:title"
+      content="Code Connect Conferences - July 14-16, 2026" />
+    <meta
+      property="twitter:description"
+      content="Join us for 4 consecutive days of groundbreaking conferences and events all under the banner of Code Connect! Same location, triple the insights, innovation, and networking opportunities." />
+    <meta property="twitter:image" content="images/share.png" />
 
-		<meta property="twitter:card" content="summary" />
-	<meta property="twitter:url" content="https://code-connect.dev/" />
-	<meta property="twitter:title" content="Code Connect Conferences - July 14-16, 2026" />
-	<meta property="twitter:description"
-		content="Join us for 4 consecutive days of groundbreaking conferences and events all under the banner of Code Connect! Same location, triple the insights, innovation, and networking opportunities." />
-	<meta property="twitter:image" content="images/share.png" />
+    <meta
+      property="og:title"
+      content="Code Connect Conferences - July 14-16, 2026" />
+    <meta
+      property="og:description"
+      content="Join us for 4 consecutive days of groundbreaking conferences and events all under the banner of Code Connect! Same location, triple the insights, innovation, and networking opportunities." />
+    <meta property="og:image" content="images/share.png" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#8838EC" />
 
-	<meta property="og:title" content="Code Connect Conferences - July 14-16, 2026" />
-	<meta property="og:description"
-		content="Join us for 4 consecutive days of groundbreaking conferences and events all under the banner of Code Connect! Same location, triple the insights, innovation, and networking opportunities." />
-	<meta property="og:image" content="images/share.png" />
-	<meta name="robots" content="index, follow" />
-	<meta name="theme-color" content="#8838EC">
+    <link rel="apple-touch-icon" href="images/codeconnect-ico.png" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="icon" sizes="any" href="images/codeconnect-ico.png" />
 
-	<link rel="apple-touch-icon" href="images/codeconnect-ico.png" />
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
-	<link rel="icon" sizes="any" href="images/codeconnect-ico.png" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 
-	<link rel="preconnect" href="https://rsms.me/">
-	<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/modules.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="cc-header">
+        <div class="cc-nav-wrap">
+          <h1>
+            <a href="index.html">
+              <svg
+                class="logo"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 209 49"
+                aria-hidden="true">
+                <g fill="var(--logo-color)" clip-path="url(#a)">
+                  <path
+                    d="M59.238 20.13c-1.681-.919-2.945-2.195-3.794-3.826-.849-1.631-1.272-3.51-1.272-5.637 0-2.128.458-4.037 1.375-5.644.916-1.608 2.22-2.846 3.912-3.716C61.15.437 63.124 0 65.382 0c2.376 0 4.34.463 5.894 1.387 1.553.925 2.778 2.297 3.676 4.117l-5 2.373a5.36 5.36 0 0 0-1.768-1.965c-.754-.51-1.67-.765-2.743-.765-1.006 0-1.89.227-2.655.683-.765.456-1.356 1.1-1.775 1.936-.42.837-.628 1.803-.628 2.9 0 1.74.42 3.117 1.264 4.131.843 1.014 2.098 1.52 3.763 1.52 1.243 0 2.268-.31 3.077-.933A6.034 6.034 0 0 0 70.32 13.1l4.94 2.552c-.72 1.72-1.881 3.128-3.484 4.22-1.603 1.094-3.725 1.64-6.367 1.64-2.435 0-4.493-.46-6.174-1.379l.002-.002ZM81.915 20.13c-1.681-.919-2.957-2.197-3.83-3.834-.873-1.637-1.31-3.513-1.31-5.63 0-2.116.45-4.05 1.346-5.658.897-1.607 2.189-2.843 3.875-3.71C83.683.434 85.68.002 87.986.002c2.307 0 4.284.439 5.96 1.314 1.676.875 2.963 2.116 3.861 3.724.897 1.607 1.346 3.483 1.346 5.629 0 2.146-.464 4.055-1.391 5.696-.927 1.642-2.236 2.91-3.928 3.805-1.69.896-3.651 1.343-5.879 1.343-2.347 0-4.36-.46-6.041-1.379l.001-.002Zm8.682-4.502c.725-.48 1.272-1.148 1.641-2.003.37-.855.555-1.843.555-2.96s-.2-2.047-.6-2.878c-.4-.83-.962-1.474-1.686-1.928-.725-.454-1.566-.683-2.522-.683-.957 0-1.832.227-2.566.683-.734.454-1.3 1.096-1.694 1.922-.394.825-.591 1.787-.591 2.884s.197 2.106.591 2.967c.395.86.957 1.528 1.687 2.002.73.475 1.578.713 2.545.713 1.035 0 1.915-.24 2.64-.72ZM102.188.311h8.652c3.668 0 6.468.846 8.401 2.536 1.932 1.692 2.899 4.277 2.899 7.758 0 2.245-.456 4.164-1.368 5.756a8.887 8.887 0 0 1-3.861 3.62c-1.661.82-3.592 1.23-5.79 1.23h-8.933V.312Zm8.652 15.858c1.665 0 2.931-.47 3.794-1.41.864-.939 1.294-2.305 1.294-4.094 0-1.789-.426-3.023-1.279-3.939-.853-.914-2.152-1.372-3.897-1.372h-2.514v10.814h2.604l-.002.001ZM125.485.311h15.782v4.896h-9.732v3.1h8.815v4.94h-8.815v3.04h10.338v4.926h-16.388V.311ZM59.06 47.62c-1.68-.92-2.945-2.196-3.794-3.827-.848-1.632-1.272-3.51-1.272-5.637s.458-4.037 1.375-5.644c.916-1.608 2.22-2.846 3.913-3.716 1.69-.87 3.665-1.306 5.923-1.306 2.375 0 4.34.463 5.893 1.387 1.554.925 2.778 2.297 3.676 4.117l-5 2.373a5.36 5.36 0 0 0-1.768-1.965c-.754-.51-1.669-.765-2.743-.765-1.006 0-1.89.227-2.655.683-.764.454-1.356 1.1-1.774 1.936-.42.837-.63 1.803-.63 2.9 0 1.74.422 3.117 1.265 4.131.843 1.014 2.098 1.52 3.764 1.52 1.243 0 2.267-.31 3.076-.933a6.034 6.034 0 0 0 1.834-2.285l4.94 2.552c-.72 1.72-1.881 3.128-3.484 4.22-1.602 1.094-3.725 1.64-6.366 1.64-2.436 0-4.494-.46-6.175-1.379l.002-.002ZM81.736 47.62c-1.68-.92-2.957-2.198-3.83-3.835-.872-1.637-1.31-3.513-1.31-5.63 0-2.116.45-4.05 1.346-5.658.897-1.607 2.189-2.843 3.876-3.71 1.686-.865 3.682-1.297 5.99-1.297 2.307 0 4.284.439 5.96 1.314 1.675.875 2.962 2.116 3.86 3.724.897 1.607 1.346 3.483 1.346 5.629 0 2.146-.464 4.055-1.391 5.696-.927 1.642-2.235 2.91-3.927 3.805-1.69.896-3.652 1.343-5.88 1.343-2.347 0-4.36-.46-6.041-1.379l.001-.002Zm8.682-4.502c.725-.48 1.273-1.148 1.642-2.003.37-.855.554-1.842.554-2.96 0-1.116-.2-2.046-.6-2.877-.4-.831-.962-1.474-1.686-1.928-.725-.455-1.566-.683-2.522-.683-.957 0-1.832.227-2.566.682-.734.455-1.3 1.096-1.693 1.922-.394.826-.592 1.788-.592 2.885 0 1.097.198 2.105.592 2.966.394.86.956 1.529 1.686 2.003.73.474 1.578.712 2.545.712 1.035 0 1.916-.24 2.64-.719ZM102.01 27.802h7.114l7.262 14.003c-.119-.88-.178-2.62-.178-5.222v-8.781h5.576v20.901h-7.203l-7.129-13.424c.078 1.939.118 3.91.118 5.92v7.506h-5.56V27.802ZM125.885 27.802h7.114l7.262 14.003c-.119-.88-.178-2.62-.178-5.222v-8.781h5.576v20.901h-7.203l-7.129-13.424c.078 1.939.118 3.91.118 5.92v7.506h-5.56V27.802ZM149.759 27.802h15.781v4.895h-9.732v3.1h8.816v4.94h-8.816v3.041h10.338v4.925h-16.387V27.802ZM173.538 47.62c-1.681-.92-2.945-2.196-3.794-3.827-.849-1.632-1.272-3.51-1.272-5.637s.458-4.037 1.375-5.644c.916-1.608 2.22-2.846 3.912-3.716 1.691-.87 3.665-1.306 5.923-1.306 2.376 0 4.341.463 5.894 1.387 1.553.925 2.778 2.297 3.676 4.117l-5 2.373a5.367 5.367 0 0 0-1.768-1.965c-.754-.51-1.669-.765-2.743-.765-1.006 0-1.891.227-2.655.683-.765.454-1.356 1.1-1.775 1.936-.419.837-.629 1.803-.629 2.9 0 1.74.421 3.117 1.265 4.131.843 1.014 2.098 1.52 3.763 1.52 1.243 0 2.268-.31 3.076-.933a6.039 6.039 0 0 0 1.835-2.285l4.94 2.552c-.72 1.72-1.881 3.128-3.484 4.22-1.603 1.094-3.725 1.64-6.367 1.64-2.435 0-4.493-.46-6.175-1.379l.003-.002ZM196.887 32.846h-6.049v-5.044H209v5.044h-6.05v15.857h-6.064V32.846h.001ZM37.217 27.13c-4.166 0-7.976 2.463-9.708 6.278a3.922 3.922 0 0 1-7.143 0 10.716 10.716 0 0 0-2.713-3.645l-.03-.025c-.184-.16-.375-.316-.57-.464l-.027-.019a10.939 10.939 0 0 0-.564-.394l-.07-.047c-.192-.122-.39-.24-.59-.35-.04-.024-.08-.045-.12-.066-.206-.111-.414-.217-.627-.314a3.935 3.935 0 0 1-2.298-3.583c0-1.543.898-2.943 2.298-3.582.213-.098.42-.203.625-.314l.124-.067a10.751 10.751 0 0 0 1.215-.788l.035-.026c.193-.145.38-.299.565-.458l.038-.033c1.142-1 2.07-2.236 2.707-3.641a3.922 3.922 0 0 1 7.143 0c1.732 3.815 5.543 6.278 9.708 6.278 5.877 0 10.658-4.795 10.658-10.689S43.094.491 37.217.491c-4.166 0-7.976 2.465-9.708 6.28a3.922 3.922 0 0 1-7.143 0c-.011-.025-.024-.047-.035-.071-.099-.213-.201-.421-.312-.626l-.008-.014c-.11-.2-.226-.396-.348-.588l-.08-.125a10.869 10.869 0 0 0-.912-1.204 10.864 10.864 0 0 0-1.038-1.035s-.002-.003-.004-.003A10.59 10.59 0 0 0 11.517.53l-.155-.012a10.255 10.255 0 0 0-.704-.025C4.78.492 0 5.287 0 11.182c0 4.177 2.457 7.999 6.26 9.736A3.935 3.935 0 0 1 8.558 24.5a3.935 3.935 0 0 1-2.298 3.582A10.73 10.73 0 0 0 0 37.82c0 5.894 4.781 10.69 10.658 10.69.237 0 .471-.011.704-.026l.155-.012a10.6 10.6 0 0 0 6.114-2.578 10.9 10.9 0 0 0 1.04-1.038 10.59 10.59 0 0 0 .989-1.327c.122-.193.24-.391.351-.593l.006-.008c.111-.206.214-.415.313-.628.01-.024.024-.045.034-.07a3.922 3.922 0 0 1 7.143 0c1.732 3.815 5.543 6.28 9.708 6.28 5.877 0 10.658-4.796 10.658-10.69 0-5.894-4.781-10.69-10.658-10.69h.002Z" />
+                  <animate
+                    attributeName="fill"
+                    values="#FF5D17 ; #0090DA; #BA066C; #8838EC; #FF5D17"
+                    dur="20s"
+                    repeatCount="indefinite" />
+                </g>
+                <defs>
+                  <clipPath id="a">
+                    <path fill="#fff" d="M0 0h209v49H0z" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="sr-only">Code Connect 2026 Conferences</span>
+            </a>
+          </h1>
 
-	<link rel="stylesheet" href="./css/common.css" />
-	<link rel="stylesheet" href="./css/modules.css" />
+          <a
+            class="cc-event-marker cc-event-marker-ui5con"
+            href="#ui5con"
+            aria-label="Jump to UI5con event info">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 324 155"
+              aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M.009 93.09V.004h33.64v92.522a42.2 42.2 0 0 0 6.845 25.54 25.603 25.603 0 0 0 9.805 6.853 25.694 25.694 0 0 0 11.864 1.662 24.526 24.526 0 0 0 11.608-1.658 24.408 24.408 0 0 0 9.487-6.854 40.217 40.217 0 0 0 6.844-25.543V0h33.072v93.09a92.269 92.269 0 0 1-3.422 24.975 51.031 51.031 0 0 1-11.403 19.302 43.025 43.025 0 0 1-19.386 11.918 81.447 81.447 0 0 1-27.371 3.973 81.447 81.447 0 0 1-27.371-3.973 47.589 47.589 0 0 1-18.913-11.964 47.29 47.29 0 0 1-11.309-19.253A74.384 74.384 0 0 1 .006 93.091h.003Zm152.816 57.898V.003H185.9v150.985h-33.075Zm54.17-17.029 17.111-21.567a68.945 68.945 0 0 0 17.104 11.349 52.19 52.19 0 0 0 20.526 4.542c10.264 0 17.676-2.269 22.241-7.38a27.559 27.559 0 0 0 6.841-19.298 27.245 27.245 0 0 0-6.844-19.864 24.25 24.25 0 0 0-8.857-5.862 24.339 24.339 0 0 0-10.53-1.518 33.596 33.596 0 0 0-14.825 3.404 39.876 39.876 0 0 0-13.117 10.787l-21.666-6.814 6.273-81.17h92.372l-1.708 24.41h-65.005l-2.85 34.058a49.29 49.29 0 0 1 11.403-6.811 60.745 60.745 0 0 1 19.386-2.838 53.641 53.641 0 0 1 21.102 3.972 42.036 42.036 0 0 1 15.623 10.469 41.773 41.773 0 0 1 9.465 16.21 50.87 50.87 0 0 1 2.851 20.432 61.331 61.331 0 0 1-3.994 22.14 51.673 51.673 0 0 1-11.974 17.026 64.268 64.268 0 0 1-18.816 11.352 75.337 75.337 0 0 1-25.088 3.973 81.533 81.533 0 0 1-32.501-5.676 119.006 119.006 0 0 1-24.523-15.326Z" />
+            </svg>
+          </a>
+          <a
+            class="cc-event-marker cc-event-marker-recap"
+            href="#recap"
+            aria-label="Jump to ReCAP event info">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 -50 275 275"
+              aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M8.15 136.29s-10.4 5.84 2.75 13.34c11.7 6.67 25.76-.25 25.76-.25l-11.44-14.92-17.08 1.83ZM272.48 111.53c0 4.74-.23 9.05-.66 12.57-.58 4.78-1.51 8.09-2.67 9.01-.13.11-.26.19-.39.23-32.75 11.78-77.43.19-79.44-.34 0 0-64.36-22.43-115.94-26.43.08-.03.15-.07.23-.1-.17 0-.26.08-.42.08h-.04v-.02l21.14-54.54s2.47-7.4 8.01-15.7c4.69-7.05 11.58-14.74 21.07-19.11 7.23-3.3 16.15-5.31 25.03-6.54 5.76-.8 11.5-1.27 16.75-1.54h.09c7.86-.4 16.39-.78 16.39-.78.83-5.42 6.41-6.09 8.48-5.77 4.75.72 7.28 3.95 6.53 8.06 0 0 33.45 15.65 41.65 22.32 3.81 3.09 19.39 18.53 26.38 34.22A73.05 73.05 0 0 1 268.81 79c2.61 10.39 3.68 22.43 3.69 32.53Z" />
+              <path
+                d="M189.31 133.01c-1.12 1.16-21.09 21.66-48.16 34.86-6.19-11.33-30.43-51.42-67.85-61.26.02 0 .05-.02.07-.03 51.58 4 115.94 26.43 115.94 26.43Z"
+                fill="currentColor" />
+              <path
+                d="M141.15 167.87c-9.91 4.83-20.77 8.68-32.01 10.24-6.29.88-12.69 1.03-19.1.24 1.48-19.04 2.1-58.81-16.79-71.71.02 0 .04-.02.06-.03 37.41 9.84 61.65 49.93 67.85 61.26Z"
+                fill="currentColor" />
+              <path
+                d="M90.03 178.36c-.86-.1-1.72-.23-2.58-.37-8.56-1.39-17.12-4.5-25.45-9.88-13.15-8.49-44.65-32.68-54.14-31.59h-.09l.12-.02c-1.16.14 17.7-8.44 36.8-17.03l-.16-.06h.29c4.04-1.82 8.09-3.64 11.96-5.38 6.2-2.78 11.94-5.36 16.46-7.39 18.9 12.9 18.28 52.68 16.79 71.71Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <a
+            class="cc-event-marker cc-event-marker-hanaconf"
+            href="#hanaconf"
+            aria-label="Jump to HANA Tech Con event info">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 500 500"
+              aria-hidden="true">
+              <rect
+                width="244"
+                height="244"
+                x="128"
+                y="128"
+                fill="currentColor"
+                rx="20" />
+              <rect
+                width="84"
+                height="31"
+                x="25"
+                y="314"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="84"
+                height="31"
+                x="24"
+                y="261"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="84"
+                height="31"
+                x="25"
+                y="208"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="84"
+                height="31"
+                x="25"
+                y="155"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="84"
+                height="31"
+                x="392"
+                y="155"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="84"
+                height="31"
+                x="392"
+                y="208"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="84"
+                height="31"
+                x="392"
+                y="261"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="84"
+                height="31"
+                x="392"
+                y="314"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="31"
+                height="84"
+                x="314"
+                y="25"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="31"
+                height="84"
+                x="261"
+                y="25"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="31"
+                height="84"
+                x="208"
+                y="25"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="31"
+                height="84"
+                x="155"
+                y="25"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="31"
+                height="84"
+                x="314"
+                y="392"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="31"
+                height="84"
+                x="261"
+                y="392"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="31"
+                height="84"
+                x="208"
+                y="392"
+                fill="currentColor"
+                rx="15.5" />
+              <rect
+                width="31"
+                height="84"
+                x="155"
+                y="392"
+                fill="currentColor"
+                rx="15.5" />
+            </svg>
+          </a>
 
-</head>
-<body>
-	<div class="wrap">
-		<header class="cc-header">
+          <nav class="cc-nav">
+            <time datetime="">
+              July 14-16, 2026
+              <span>St. Leon-Rot, Germany</span>
+            </time>
 
-			<div class="cc-nav-wrap">
-				<h1>
-					<a href="index.html">
-						<svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 209 49" aria-hidden="true">
-							<g fill="var(--logo-color)" clip-path="url(#a)">
-								<path d="M59.238 20.13c-1.681-.919-2.945-2.195-3.794-3.826-.849-1.631-1.272-3.51-1.272-5.637 0-2.128.458-4.037 1.375-5.644.916-1.608 2.22-2.846 3.912-3.716C61.15.437 63.124 0 65.382 0c2.376 0 4.34.463 5.894 1.387 1.553.925 2.778 2.297 3.676 4.117l-5 2.373a5.36 5.36 0 0 0-1.768-1.965c-.754-.51-1.67-.765-2.743-.765-1.006 0-1.89.227-2.655.683-.765.456-1.356 1.1-1.775 1.936-.42.837-.628 1.803-.628 2.9 0 1.74.42 3.117 1.264 4.131.843 1.014 2.098 1.52 3.763 1.52 1.243 0 2.268-.31 3.077-.933A6.034 6.034 0 0 0 70.32 13.1l4.94 2.552c-.72 1.72-1.881 3.128-3.484 4.22-1.603 1.094-3.725 1.64-6.367 1.64-2.435 0-4.493-.46-6.174-1.379l.002-.002ZM81.915 20.13c-1.681-.919-2.957-2.197-3.83-3.834-.873-1.637-1.31-3.513-1.31-5.63 0-2.116.45-4.05 1.346-5.658.897-1.607 2.189-2.843 3.875-3.71C83.683.434 85.68.002 87.986.002c2.307 0 4.284.439 5.96 1.314 1.676.875 2.963 2.116 3.861 3.724.897 1.607 1.346 3.483 1.346 5.629 0 2.146-.464 4.055-1.391 5.696-.927 1.642-2.236 2.91-3.928 3.805-1.69.896-3.651 1.343-5.879 1.343-2.347 0-4.36-.46-6.041-1.379l.001-.002Zm8.682-4.502c.725-.48 1.272-1.148 1.641-2.003.37-.855.555-1.843.555-2.96s-.2-2.047-.6-2.878c-.4-.83-.962-1.474-1.686-1.928-.725-.454-1.566-.683-2.522-.683-.957 0-1.832.227-2.566.683-.734.454-1.3 1.096-1.694 1.922-.394.825-.591 1.787-.591 2.884s.197 2.106.591 2.967c.395.86.957 1.528 1.687 2.002.73.475 1.578.713 2.545.713 1.035 0 1.915-.24 2.64-.72ZM102.188.311h8.652c3.668 0 6.468.846 8.401 2.536 1.932 1.692 2.899 4.277 2.899 7.758 0 2.245-.456 4.164-1.368 5.756a8.887 8.887 0 0 1-3.861 3.62c-1.661.82-3.592 1.23-5.79 1.23h-8.933V.312Zm8.652 15.858c1.665 0 2.931-.47 3.794-1.41.864-.939 1.294-2.305 1.294-4.094 0-1.789-.426-3.023-1.279-3.939-.853-.914-2.152-1.372-3.897-1.372h-2.514v10.814h2.604l-.002.001ZM125.485.311h15.782v4.896h-9.732v3.1h8.815v4.94h-8.815v3.04h10.338v4.926h-16.388V.311ZM59.06 47.62c-1.68-.92-2.945-2.196-3.794-3.827-.848-1.632-1.272-3.51-1.272-5.637s.458-4.037 1.375-5.644c.916-1.608 2.22-2.846 3.913-3.716 1.69-.87 3.665-1.306 5.923-1.306 2.375 0 4.34.463 5.893 1.387 1.554.925 2.778 2.297 3.676 4.117l-5 2.373a5.36 5.36 0 0 0-1.768-1.965c-.754-.51-1.669-.765-2.743-.765-1.006 0-1.89.227-2.655.683-.764.454-1.356 1.1-1.774 1.936-.42.837-.63 1.803-.63 2.9 0 1.74.422 3.117 1.265 4.131.843 1.014 2.098 1.52 3.764 1.52 1.243 0 2.267-.31 3.076-.933a6.034 6.034 0 0 0 1.834-2.285l4.94 2.552c-.72 1.72-1.881 3.128-3.484 4.22-1.602 1.094-3.725 1.64-6.366 1.64-2.436 0-4.494-.46-6.175-1.379l.002-.002ZM81.736 47.62c-1.68-.92-2.957-2.198-3.83-3.835-.872-1.637-1.31-3.513-1.31-5.63 0-2.116.45-4.05 1.346-5.658.897-1.607 2.189-2.843 3.876-3.71 1.686-.865 3.682-1.297 5.99-1.297 2.307 0 4.284.439 5.96 1.314 1.675.875 2.962 2.116 3.86 3.724.897 1.607 1.346 3.483 1.346 5.629 0 2.146-.464 4.055-1.391 5.696-.927 1.642-2.235 2.91-3.927 3.805-1.69.896-3.652 1.343-5.88 1.343-2.347 0-4.36-.46-6.041-1.379l.001-.002Zm8.682-4.502c.725-.48 1.273-1.148 1.642-2.003.37-.855.554-1.842.554-2.96 0-1.116-.2-2.046-.6-2.877-.4-.831-.962-1.474-1.686-1.928-.725-.455-1.566-.683-2.522-.683-.957 0-1.832.227-2.566.682-.734.455-1.3 1.096-1.693 1.922-.394.826-.592 1.788-.592 2.885 0 1.097.198 2.105.592 2.966.394.86.956 1.529 1.686 2.003.73.474 1.578.712 2.545.712 1.035 0 1.916-.24 2.64-.719ZM102.01 27.802h7.114l7.262 14.003c-.119-.88-.178-2.62-.178-5.222v-8.781h5.576v20.901h-7.203l-7.129-13.424c.078 1.939.118 3.91.118 5.92v7.506h-5.56V27.802ZM125.885 27.802h7.114l7.262 14.003c-.119-.88-.178-2.62-.178-5.222v-8.781h5.576v20.901h-7.203l-7.129-13.424c.078 1.939.118 3.91.118 5.92v7.506h-5.56V27.802ZM149.759 27.802h15.781v4.895h-9.732v3.1h8.816v4.94h-8.816v3.041h10.338v4.925h-16.387V27.802ZM173.538 47.62c-1.681-.92-2.945-2.196-3.794-3.827-.849-1.632-1.272-3.51-1.272-5.637s.458-4.037 1.375-5.644c.916-1.608 2.22-2.846 3.912-3.716 1.691-.87 3.665-1.306 5.923-1.306 2.376 0 4.341.463 5.894 1.387 1.553.925 2.778 2.297 3.676 4.117l-5 2.373a5.367 5.367 0 0 0-1.768-1.965c-.754-.51-1.669-.765-2.743-.765-1.006 0-1.891.227-2.655.683-.765.454-1.356 1.1-1.775 1.936-.419.837-.629 1.803-.629 2.9 0 1.74.421 3.117 1.265 4.131.843 1.014 2.098 1.52 3.763 1.52 1.243 0 2.268-.31 3.076-.933a6.039 6.039 0 0 0 1.835-2.285l4.94 2.552c-.72 1.72-1.881 3.128-3.484 4.22-1.603 1.094-3.725 1.64-6.367 1.64-2.435 0-4.493-.46-6.175-1.379l.003-.002ZM196.887 32.846h-6.049v-5.044H209v5.044h-6.05v15.857h-6.064V32.846h.001ZM37.217 27.13c-4.166 0-7.976 2.463-9.708 6.278a3.922 3.922 0 0 1-7.143 0 10.716 10.716 0 0 0-2.713-3.645l-.03-.025c-.184-.16-.375-.316-.57-.464l-.027-.019a10.939 10.939 0 0 0-.564-.394l-.07-.047c-.192-.122-.39-.24-.59-.35-.04-.024-.08-.045-.12-.066-.206-.111-.414-.217-.627-.314a3.935 3.935 0 0 1-2.298-3.583c0-1.543.898-2.943 2.298-3.582.213-.098.42-.203.625-.314l.124-.067a10.751 10.751 0 0 0 1.215-.788l.035-.026c.193-.145.38-.299.565-.458l.038-.033c1.142-1 2.07-2.236 2.707-3.641a3.922 3.922 0 0 1 7.143 0c1.732 3.815 5.543 6.278 9.708 6.278 5.877 0 10.658-4.795 10.658-10.689S43.094.491 37.217.491c-4.166 0-7.976 2.465-9.708 6.28a3.922 3.922 0 0 1-7.143 0c-.011-.025-.024-.047-.035-.071-.099-.213-.201-.421-.312-.626l-.008-.014c-.11-.2-.226-.396-.348-.588l-.08-.125a10.869 10.869 0 0 0-.912-1.204 10.864 10.864 0 0 0-1.038-1.035s-.002-.003-.004-.003A10.59 10.59 0 0 0 11.517.53l-.155-.012a10.255 10.255 0 0 0-.704-.025C4.78.492 0 5.287 0 11.182c0 4.177 2.457 7.999 6.26 9.736A3.935 3.935 0 0 1 8.558 24.5a3.935 3.935 0 0 1-2.298 3.582A10.73 10.73 0 0 0 0 37.82c0 5.894 4.781 10.69 10.658 10.69.237 0 .471-.011.704-.026l.155-.012a10.6 10.6 0 0 0 6.114-2.578 10.9 10.9 0 0 0 1.04-1.038 10.59 10.59 0 0 0 .989-1.327c.122-.193.24-.391.351-.593l.006-.008c.111-.206.214-.415.313-.628.01-.024.024-.045.034-.07a3.922 3.922 0 0 1 7.143 0c1.732 3.815 5.543 6.28 9.708 6.28 5.877 0 10.658-4.796 10.658-10.69 0-5.894-4.781-10.69-10.658-10.69h.002Z"/>
-								<animate attributeName="fill" values="#FF5D17 ; #0090DA; #BA066C; #8838EC; #FF5D17" dur="20s" repeatCount="indefinite" />
-							</g>
-							<defs>
-								<clipPath id="a">
-									<path fill="#fff" d="M0 0h209v49H0z"/>
-								</clipPath>
-							</defs>
-						</svg>
-						<span class="sr-only">Code Connect 2026 Conferences</span>
-					</a>
-				</h1>
+            <ul aria-label="Main Navigation">
+              <li>
+                <a href="sponsoring.html">Sponsoring</a>
+              </li>
+              <li>
+                <a href="location.html">Location</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
 
-				<a class="cc-event-marker cc-event-marker-ui5con" href="#ui5con" aria-label="Jump to UI5con event info">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 324 155" aria-hidden="true">
-						<path fill="currentColor" d="M.009 93.09V.004h33.64v92.522a42.2 42.2 0 0 0 6.845 25.54 25.603 25.603 0 0 0 9.805 6.853 25.694 25.694 0 0 0 11.864 1.662 24.526 24.526 0 0 0 11.608-1.658 24.408 24.408 0 0 0 9.487-6.854 40.217 40.217 0 0 0 6.844-25.543V0h33.072v93.09a92.269 92.269 0 0 1-3.422 24.975 51.031 51.031 0 0 1-11.403 19.302 43.025 43.025 0 0 1-19.386 11.918 81.447 81.447 0 0 1-27.371 3.973 81.447 81.447 0 0 1-27.371-3.973 47.589 47.589 0 0 1-18.913-11.964 47.29 47.29 0 0 1-11.309-19.253A74.384 74.384 0 0 1 .006 93.091h.003Zm152.816 57.898V.003H185.9v150.985h-33.075Zm54.17-17.029 17.111-21.567a68.945 68.945 0 0 0 17.104 11.349 52.19 52.19 0 0 0 20.526 4.542c10.264 0 17.676-2.269 22.241-7.38a27.559 27.559 0 0 0 6.841-19.298 27.245 27.245 0 0 0-6.844-19.864 24.25 24.25 0 0 0-8.857-5.862 24.339 24.339 0 0 0-10.53-1.518 33.596 33.596 0 0 0-14.825 3.404 39.876 39.876 0 0 0-13.117 10.787l-21.666-6.814 6.273-81.17h92.372l-1.708 24.41h-65.005l-2.85 34.058a49.29 49.29 0 0 1 11.403-6.811 60.745 60.745 0 0 1 19.386-2.838 53.641 53.641 0 0 1 21.102 3.972 42.036 42.036 0 0 1 15.623 10.469 41.773 41.773 0 0 1 9.465 16.21 50.87 50.87 0 0 1 2.851 20.432 61.331 61.331 0 0 1-3.994 22.14 51.673 51.673 0 0 1-11.974 17.026 64.268 64.268 0 0 1-18.816 11.352 75.337 75.337 0 0 1-25.088 3.973 81.533 81.533 0 0 1-32.501-5.676 119.006 119.006 0 0 1-24.523-15.326Z"/>
-					</svg>
-				</a>
-				<a class="cc-event-marker cc-event-marker-recap" href="#recap" aria-label="Jump to ReCAP event info">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -50 275 275" aria-hidden="true">
-						<path fill="currentColor" d="M8.15 136.29s-10.4 5.84 2.75 13.34c11.7 6.67 25.76-.25 25.76-.25l-11.44-14.92-17.08 1.83ZM272.48 111.53c0 4.74-.23 9.05-.66 12.57-.58 4.78-1.51 8.09-2.67 9.01-.13.11-.26.19-.39.23-32.75 11.78-77.43.19-79.44-.34 0 0-64.36-22.43-115.94-26.43.08-.03.15-.07.23-.1-.17 0-.26.08-.42.08h-.04v-.02l21.14-54.54s2.47-7.4 8.01-15.7c4.69-7.05 11.58-14.74 21.07-19.11 7.23-3.3 16.15-5.31 25.03-6.54 5.76-.8 11.5-1.27 16.75-1.54h.09c7.86-.4 16.39-.78 16.39-.78.83-5.42 6.41-6.09 8.48-5.77 4.75.72 7.28 3.95 6.53 8.06 0 0 33.45 15.65 41.65 22.32 3.81 3.09 19.39 18.53 26.38 34.22A73.05 73.05 0 0 1 268.81 79c2.61 10.39 3.68 22.43 3.69 32.53Z"/>
-						<path d="M189.31 133.01c-1.12 1.16-21.09 21.66-48.16 34.86-6.19-11.33-30.43-51.42-67.85-61.26.02 0 .05-.02.07-.03 51.58 4 115.94 26.43 115.94 26.43Z" fill="currentColor"/>
-						<path d="M141.15 167.87c-9.91 4.83-20.77 8.68-32.01 10.24-6.29.88-12.69 1.03-19.1.24 1.48-19.04 2.1-58.81-16.79-71.71.02 0 .04-.02.06-.03 37.41 9.84 61.65 49.93 67.85 61.26Z" fill="currentColor"/>
-						<path d="M90.03 178.36c-.86-.1-1.72-.23-2.58-.37-8.56-1.39-17.12-4.5-25.45-9.88-13.15-8.49-44.65-32.68-54.14-31.59h-.09l.12-.02c-1.16.14 17.7-8.44 36.8-17.03l-.16-.06h.29c4.04-1.82 8.09-3.64 11.96-5.38 6.2-2.78 11.94-5.36 16.46-7.39 18.9 12.9 18.28 52.68 16.79 71.71Z" fill="currentColor"/>
-					</svg>
-				</a>
-				<a class="cc-event-marker cc-event-marker-hanaconf" href="#hanaconf" aria-label="Jump to HANA Tech Con event info">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 500 500" aria-hidden="true">
-						<rect width="244" height="244" x="128" y="128" fill="currentColor" rx="20"/>
-						<rect width="84" height="31" x="25" y="314" fill="currentColor" rx="15.5"/>
-						<rect width="84" height="31" x="24" y="261" fill="currentColor" rx="15.5"/>
-						<rect width="84" height="31" x="25" y="208" fill="currentColor" rx="15.5"/>
-						<rect width="84" height="31" x="25" y="155" fill="currentColor" rx="15.5"/>
-						<rect width="84" height="31" x="392" y="155" fill="currentColor" rx="15.5"/>
-						<rect width="84" height="31" x="392" y="208" fill="currentColor" rx="15.5"/>
-						<rect width="84" height="31" x="392" y="261" fill="currentColor" rx="15.5"/>
-						<rect width="84" height="31" x="392" y="314" fill="currentColor" rx="15.5"/>
-						<rect width="31" height="84" x="314" y="25" fill="currentColor" rx="15.5"/>
-						<rect width="31" height="84" x="261" y="25" fill="currentColor" rx="15.5"/>
-						<rect width="31" height="84" x="208" y="25" fill="currentColor" rx="15.5"/>
-						<rect width="31" height="84" x="155" y="25" fill="currentColor" rx="15.5"/>
-						<rect width="31" height="84" x="314" y="392" fill="currentColor" rx="15.5"/>
-						<rect width="31" height="84" x="261" y="392" fill="currentColor" rx="15.5"/>
-						<rect width="31" height="84" x="208" y="392" fill="currentColor" rx="15.5"/>
-						<rect width="31" height="84" x="155" y="392" fill="currentColor" rx="15.5"/>
-					</svg>
-				</a>
+        <div class="cc-content-box">
+          <h3>
+            Build the future together: UI5con, reCAP, and HANA Tech Con – three
+            days, three conferences, one streamlined journey.
+          </h3>
+          <p>
+            The future no longer seems like a distant destination. The pace with
+            which technology is evolving gives us an opportunity to take a peek
+            into what the future holds for us and how we can build it by
+            designing deep-rooted, sustainable, and delightful UIs. Through
+            expert-led sessions, hands-on workshops, and open discussions, ideas
+            turn into experiences, best practices become building blocks, and we
+            meet at a common juncture where different perspectives come
+            together. Come build the future with us!
+          </p>
 
-				<nav class="cc-nav">
+          <!-- <a class="cc-link cc-btn-shape" href="https://code-connect.cfapps.eu10.hana.ondemand.com/" target="_blank" hreflang="en" rel="noopener noreferrer" title="Link opens event web app">Event App</a> -->
 
-					<time datetime="">
-						July 14-16, 2026
-						<span>St. Leon-Rot, Germany</span>
-					</time>
+          <button
+            class="cc-link cc-btn-shape"
+            style="cursor: pointer"
+            onclick="toggleCalendars()">
+            Save the date
+          </button>
 
-					<ul aria-label="Main Navigation">
-						<li>
-							<a href="sponsoring.html">Sponsoring</a>
-						</li>
-						<li>
-							<a href="location.html">Location</a>
-						</li>
-						<li>
-							<a href="faq.html">FAQ</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+          <div class="cc-links-container" id="links-container">
+            <!-- Google Calendar Link -->
+            <a
+              href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Code+Connect+2026&dates=20260714T220100Z/20260716T215900Z&details=Building+our+future:+together+with+CodeConnect.%0A%0AAt+CodeConnect+2026+in+St.+Leon-Rot,+Germany,+we+are+not+just+sharing+insights+into+app+development.+We+are+building+what's+next+with+code,+creativity,+and+community.+Through+expert-led+sessions,+hands-on+workshops,+and+open+discussions,+ideas+turn+into+experiences,+best+practices+become+building+blocks,+and+many+perspectives+align+to+a+common+goal.%0A%0ABring+your+toolkit:+code,+creativity,+community.+Level+up+your+skills+with+hands-on+sessions.+From+tiles+to+patterns,+take+away+reusable+practices+you+can+apply+right+away.+Co-op+mode:+build+together+across+the+CodeConnect+community+and+with+the+creators+behind+the+tech.%0A%0ASave+the+date:%0A-+Date:+Tue-Thu,+14-16+July+2026%0A-+Where:+St.+Leon-Rot,+Germany%0A-+Program+and+registration:+details+coming+soon%0A%0ACome+and+build+the+future+with+us.&location=SAP+SE+(ROT03),+SAP-Allee+27,+68789+Sankt+Leon-Rot,+Germany&trp=false"
+              target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 256 256">
+                <path fill="#FFF" d="M195.368 60.632H60.632v134.736h134.736z" />
+                <path
+                  fill="#EA4335"
+                  d="M195.368 256L256 195.368l-30.316-5.172l-30.316 5.172l-5.533 27.73z" />
+                <path
+                  fill="#188038"
+                  d="M0 195.368v40.421C0 246.956 9.044 256 20.21 256h40.422l6.225-30.316l-6.225-30.316l-33.033-5.172z" />
+                <path
+                  fill="#1967D2"
+                  d="M256 60.632V20.21C256 9.044 246.956 0 235.79 0h-40.422q-5.532 22.554-5.533 33.196q0 10.641 5.533 27.436q20.115 5.76 30.316 5.76T256 60.631" />
+                <path fill="#FBBC04" d="M256 60.632h-60.632v134.736H256z" />
+                <path fill="#34A853" d="M195.368 195.368H60.632V256h134.736z" />
+                <path
+                  fill="#4285F4"
+                  d="M195.368 0H20.211C9.044 0 0 9.044 0 20.21v175.158h60.632V60.632h134.736z" />
+                <path
+                  fill="#4285F4"
+                  d="M88.27 165.154c-5.036-3.402-8.523-8.37-10.426-14.94l11.689-4.816q1.59 6.063 5.558 9.398c2.627 2.223 5.827 3.318 9.566 3.318q5.734 0 9.852-3.487c2.746-2.324 4.127-5.288 4.127-8.875q0-5.508-4.345-8.994c-2.897-2.324-6.535-3.486-10.88-3.486h-6.754v-11.57h6.063q5.608 0 9.448-3.033c2.56-2.02 3.84-4.783 3.84-8.303c0-3.132-1.145-5.625-3.435-7.494c-2.29-1.87-5.188-2.813-8.708-2.813c-3.436 0-6.164.91-8.185 2.745a16.1 16.1 0 0 0-4.413 6.754l-11.57-4.817c1.532-4.345 4.345-8.185 8.471-11.503s9.398-4.985 15.798-4.985c4.733 0 8.994.91 12.767 2.745c3.772 1.836 6.736 4.379 8.875 7.613c2.14 3.25 3.2 6.888 3.2 10.93c0 4.126-.993 7.613-2.98 10.476s-4.43 5.052-7.327 6.585v.69a22.25 22.25 0 0 1 9.398 7.327c2.442 3.284 3.672 7.208 3.672 11.79c0 4.58-1.163 8.673-3.487 12.26c-2.324 3.588-5.54 6.417-9.617 8.472c-4.092 2.055-8.69 3.1-13.793 3.1c-5.912.016-11.369-1.685-16.405-5.087m71.797-58.005l-12.833 9.28l-6.417-9.734l23.023-16.607h8.825v78.333h-12.598z" />
+              </svg>Google
+            </a>
 
-			<div class="cc-content-box">
-				<h3>Build the future together: UI5con, reCAP, and HANA Tech Con – three days, three conferences, one streamlined journey.</h3>
-				<p>The future no longer seems like a distant destination. The pace with which technology is evolving gives us an opportunity to take a peek into what the future holds for us and how we can build it by designing deep-rooted, sustainable, and delightful UIs. Through expert-led sessions, hands-on workshops, and open discussions, ideas turn into experiences, best practices become building blocks, and we meet at a common juncture where different perspectives come together. Come build the future with us!</p>
+            <!-- Outlook/iCal Link -->
+            <a
+              href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:-//Code Connect 2026//EN%0D%0ACALSCALE:GREGORIAN%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20260714T220100Z%0D%0ADTEND:20260716T215900Z%0D%0ASUMMARY:Code Connect 2026%0D%0ADESCRIPTION:Building our future: together with CodeConnect.\n\nAt CodeConnect 2026 in St. Leon-Rot%2C Germany%2C we are not just sharing insights into app development. We are building what's next with code%2C creativity%2C and community. Through expert-led sessions%2C hands-on workshops%2C and open discussions%2C ideas turn into experiences%2C best practices become building blocks%2C and many perspectives align to a common goal.\n\nBring your toolkit: code%2C creativity%2C community. Level up your skills with hands-on sessions. From tiles to patterns%2C take away reusable practices you can apply right away. Co-op mode: build together across the CodeConnect community and with the creators behind the tech.\n\nSave the date:\n- Date: Tue-Thu%2C 14-16 July 2026\n- Where: St. Leon-Rot%2C Germany\n- Program and registration: details coming soon\n\nCome and build the future with us.%0D%0ALOCATION:SAP SE (ROT03)%2C SAP-Allee 27%2C 68789 Sankt Leon-Rot%2C Germany%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR"
+              download="Code_Connect_2026.ics">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 32 32">
+                <path
+                  fill="#0072c6"
+                  d="M19.484 7.937v5.477l1.916 1.205a.5.5 0 0 0 .21 0l8.238-5.554a1.174 1.174 0 0 0-.959-1.128Z" />
+                <path
+                  fill="#0072c6"
+                  d="m19.484 15.457l1.747 1.2a.52.52 0 0 0 .543 0c-.3.181 8.073-5.378 8.073-5.378v10.066a1.408 1.408 0 0 1-1.49 1.555h-8.874zm-9.044-2.525a1.61 1.61 0 0 0-1.42.838a4.13 4.13 0 0 0-.526 2.218A4.05 4.05 0 0 0 9.02 18.2a1.6 1.6 0 0 0 2.771.022a4 4 0 0 0 .515-2.2a4.37 4.37 0 0 0-.5-2.281a1.54 1.54 0 0 0-1.366-.809" />
+                <path
+                  fill="#0072c6"
+                  d="M2.153 5.155v21.427L18.453 30V2Zm10.908 14.336a3.23 3.23 0 0 1-2.7 1.361a3.19 3.19 0 0 1-2.64-1.318A5.46 5.46 0 0 1 6.706 16.1a5.87 5.87 0 0 1 1.036-3.616a3.27 3.27 0 0 1 2.744-1.384a3.12 3.12 0 0 1 2.61 1.321a5.64 5.64 0 0 1 1 3.484a5.76 5.76 0 0 1-1.035 3.586" />
+              </svg>Outlook
+            </a>
 
-				<!-- <a class="cc-link cc-btn-shape" href="https://code-connect.cfapps.eu10.hana.ondemand.com/" target="_blank" hreflang="en" rel="noopener noreferrer" title="Link opens event web app">Event App</a> -->
+            <!-- Office 365 Link -->
+            <a
+              href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-07-14T00:01:00&enddt=2026-07-16T23:59:00&subject=Code+Connect+2026&body=Building+our+future:+together+with+CodeConnect.%3Cbr%3E%3Cbr%3EAt+CodeConnect+2026+in+St.+Leon-Rot,+Germany,+we+are+not+just+sharing+insights+into+app+development.+We+are+building+what's+next+with+code,+creativity,+and+community.+Through+expert-led+sessions,+hands-on+workshops,+and+open+discussions,+ideas+turn+into+experiences,+best+practices+become+building+blocks,+and+many+perspectives+align+to+a+common+goal.%3Cbr%3E%3Cbr%3EBring+your+toolkit:+code,+creativity,+community.+Level+up+your+skills+with+hands-on+sessions.+From+tiles+to+patterns,+take+away+reusable+practices+you+can+apply+right+away.+Co-op+mode:+build+together+across+the+CodeConnect+community+and+with+the+creators+behind+the+tech.%3Cbr%3E%3Cbr%3ESave+the+date:%3Cbr%3E-+Date:+Tue-Thu,+14-16+July+2026%3Cbr%3E-+Where:+St.+Leon-Rot,+Germany%3Cbr%3E-+Program+and+registration:+details+coming+soon%3Cbr%3E%3Cbr%3ECome+and+build+the+future+with+us.&location=SAP+SE+(ROT03),+SAP-Allee+27,+68789+Sankt+Leon-Rot,+Germany"
+              target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24">
+                <path
+                  fill="none"
+                  stroke="#eb3c00"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M4 18V6l10.5-4L20 4v16l-5.5 2zm0 0l10 .5V6L8.5 7.5v8z"
+                  color="#eb3c00" />
+            </svg>Office 365
+            </a>
+          </div>
+        </div>
+      </header>
 
-				<button class="cc-link cc-btn-shape" style="cursor: pointer;" onclick="toggleCalendars()">Save the date</button>
-
-				<div class="cc-links-container" id="links-container">
-					<!-- Google Calendar Link -->
-					<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Code+Connect+2026&dates=20260714T220100Z/20260716T215900Z&details=All+aboard+the+Code+Connect+express!+Three+days,+three+conferences,+one+incredible+journey.+Join+UI5con,+reCAP,+and+HANAConf+as+we+ride+the+rails+to+the+future+of+development.+Pack+your+curiosity+and+prepare+for+expert+sessions,+hands-on+labs,+and+game-changing+connections+that+will+transform+how+you+build+tomorrow's+solutions.&location=SAP+SE+(ROT03),+SAP-Allee+27,+68789+Sankt+Leon-Rot,+Germany&trp=false" target="_blank">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
-							<path fill="#FFF" d="M195.368 60.632H60.632v134.736h134.736z"/>
-							<path fill="#EA4335" d="M195.368 256L256 195.368l-30.316-5.172l-30.316 5.172l-5.533 27.73z"/>
-							<path fill="#188038" d="M0 195.368v40.421C0 246.956 9.044 256 20.21 256h40.422l6.225-30.316l-6.225-30.316l-33.033-5.172z"/>
-							<path fill="#1967D2" d="M256 60.632V20.21C256 9.044 246.956 0 235.79 0h-40.422q-5.532 22.554-5.533 33.196q0 10.641 5.533 27.436q20.115 5.76 30.316 5.76T256 60.631"/>
-							<path fill="#FBBC04" d="M256 60.632h-60.632v134.736H256z"/>
-							<path fill="#34A853" d="M195.368 195.368H60.632V256h134.736z"/>
-							<path fill="#4285F4" d="M195.368 0H20.211C9.044 0 0 9.044 0 20.21v175.158h60.632V60.632h134.736z"/>
-							<path fill="#4285F4" d="M88.27 165.154c-5.036-3.402-8.523-8.37-10.426-14.94l11.689-4.816q1.59 6.063 5.558 9.398c2.627 2.223 5.827 3.318 9.566 3.318q5.734 0 9.852-3.487c2.746-2.324 4.127-5.288 4.127-8.875q0-5.508-4.345-8.994c-2.897-2.324-6.535-3.486-10.88-3.486h-6.754v-11.57h6.063q5.608 0 9.448-3.033c2.56-2.02 3.84-4.783 3.84-8.303c0-3.132-1.145-5.625-3.435-7.494c-2.29-1.87-5.188-2.813-8.708-2.813c-3.436 0-6.164.91-8.185 2.745a16.1 16.1 0 0 0-4.413 6.754l-11.57-4.817c1.532-4.345 4.345-8.185 8.471-11.503s9.398-4.985 15.798-4.985c4.733 0 8.994.91 12.767 2.745c3.772 1.836 6.736 4.379 8.875 7.613c2.14 3.25 3.2 6.888 3.2 10.93c0 4.126-.993 7.613-2.98 10.476s-4.43 5.052-7.327 6.585v.69a22.25 22.25 0 0 1 9.398 7.327c2.442 3.284 3.672 7.208 3.672 11.79c0 4.58-1.163 8.673-3.487 12.26c-2.324 3.588-5.54 6.417-9.617 8.472c-4.092 2.055-8.69 3.1-13.793 3.1c-5.912.016-11.369-1.685-16.405-5.087m71.797-58.005l-12.833 9.28l-6.417-9.734l23.023-16.607h8.825v78.333h-12.598z"/>
-						</svg>Google
-					</a>
-
-					<!-- Outlook/iCal Link -->
-					<a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:-//Code Connect 2026//EN%0D%0ACALSCALE:GREGORIAN%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20260714T220100Z%0D%0ADTEND:20260716T215900Z%0D%0ASUMMARY:Code Connect 2026%0D%0ADESCRIPTION:All aboard the Code Connect express! Three days%2C three conferences%2C one incredible journey. Join UI5con%2C reCAP%2C and HANAConf as we ride the rails to the future of development. Pack your curiosity and prepare for expert sessions%2C hands-on labs%2C and game-changing connections that will transform how you build tomorrow's solutions.%0D%0ALOCATION:SAP SE (ROT03)%2C SAP-Allee 27%2C 68789 Sankt Leon-Rot%2C Germany%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR" download="Code_Connect_2026.ics">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32">
-							<path fill="#0072c6" d="M19.484 7.937v5.477l1.916 1.205a.5.5 0 0 0 .21 0l8.238-5.554a1.174 1.174 0 0 0-.959-1.128Z"/>
-							<path fill="#0072c6" d="m19.484 15.457l1.747 1.2a.52.52 0 0 0 .543 0c-.3.181 8.073-5.378 8.073-5.378v10.066a1.408 1.408 0 0 1-1.49 1.555h-8.874zm-9.044-2.525a1.61 1.61 0 0 0-1.42.838a4.13 4.13 0 0 0-.526 2.218A4.05 4.05 0 0 0 9.02 18.2a1.6 1.6 0 0 0 2.771.022a4 4 0 0 0 .515-2.2a4.37 4.37 0 0 0-.5-2.281a1.54 1.54 0 0 0-1.366-.809"/>
-							<path fill="#0072c6" d="M2.153 5.155v21.427L18.453 30V2Zm10.908 14.336a3.23 3.23 0 0 1-2.7 1.361a3.19 3.19 0 0 1-2.64-1.318A5.46 5.46 0 0 1 6.706 16.1a5.87 5.87 0 0 1 1.036-3.616a3.27 3.27 0 0 1 2.744-1.384a3.12 3.12 0 0 1 2.61 1.321a5.64 5.64 0 0 1 1 3.484a5.76 5.76 0 0 1-1.035 3.586"/>
-						</svg>Outlook
-					</a>
-
-					<!-- Office 365 Link -->
-					<a href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-07-14T00:01:00&enddt=2026-07-16T23:59:00&subject=Code+Connect+2026&body=All+aboard+the+Code+Connect+express!+Three+days,+three+conferences,+one+incredible+journey.+Join+UI5con,+reCAP,+and+HANAConf+as+we+ride+the+rails+to+the+future+of+development.+Pack+your+curiosity+and+prepare+for+expert+sessions,+hands-on+labs,+and+game-changing+connections+that+will+transform+how+you+build+tomorrow's+solutions.&location=SAP+SE+(ROT03),+SAP-Allee+27,+68789+Sankt+Leon-Rot,+Germany" target="_blank">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-							<path fill="none" stroke="#eb3c00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 18V6l10.5-4L20 4v16l-5.5 2zm0 0l10 .5V6L8.5 7.5v8z" color="#eb3c00"/>
-						</svg>Office 365
-					</a>
-				</div>
-
-			</div>
-		</header>
-
-		<main>
-			<section>
-				<!-- <div class="cc-teaser cc-content-box codejam">
+      <main>
+        <section>
+          <!-- <div class="cc-teaser cc-content-box codejam">
 					<div class="cc-teaser-head">
 
 						<h2>Meet-up</h2>
@@ -185,130 +388,335 @@
 					</div>
 				</div> -->
 
-				<div class="cc-teaser cc-content-box codejam">
-					<div class="cc-teaser-head">
-						<span name="codejam" id="codejam" class="cc-event-marker cc-event-marker-codejam">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 39 36" aria-hidden="true">
-								<path fill="currentColor" fill-rule="evenodd" d="M3.476 15.533a4.773 4.773 0 0 1-.637-.179C1.482 14.88.774 14.131.399 13.422c-.587-1.113-.353-2.17-.353-2.17a.523.523 0 0 1 .17-.288L4.208 7.51l.015-.014.344-.297c-.621-.629-.94-1.047-.94-2.065V4.71A4.71 4.71 0 0 1 8.338 0H30.83a4.71 4.71 0 0 1 4.71 4.71v.425c0 1.016-.317 1.435-.936 2.062l.197.216.013.015 4.05 4.458c.107.118.155.279.13.437 0 0-.16.996-.738 1.89-.539.832-1.416 1.583-2.813 1.472v13.403a6.197 6.197 0 0 1-6.198 6.198H9.673a6.197 6.197 0 0 1-6.198-6.198V15.533Zm1.16-7.002-3.58 3.098c-.018.25-.01.765.274 1.302.282.534.835 1.072 1.857 1.431 1.273.447 1.837-.064 2.48-.41.36-.195.74-.353 1.204-.392.653-.055 1.498.127 2.737.905.77.485 1.327.681 1.8.638.317-.03.583-.175.849-.38.332-.254.657-.594 1.03-.967.68-.68 1.266-.9 1.78-.84.336.04.66.197.978.485.365.331.737.86 1.147 1.556.872 1.482 3.288 1.167 4.466-.882.545-.95 1.165-1.294 1.74-1.333.541-.035 1.087.212 1.58.631.61.52 1.147 1.303 1.5 1.893.617 1.028 2.106.642 3.052-1.126.315-.59.707-.91 1.123-1.067.417-.156.872-.146 1.344-.017.577.158 1.188.504 1.758.843.475.282.915.564 1.279.655l.017.005c1.45.35 2.188-.565 2.555-1.339.153-.324.246-.628.297-.828L34.286 8.41c-.505.211-1.101.401-1.774.571l1.656 1.835a.526.526 0 0 1-.78.705l-2.056-2.278c-1.452.284-3.152.494-4.983.637l.397 1.111a.526.526 0 1 1-.99.354l-.496-1.39c-2.69.168-5.6.202-8.378.124l-.224 1.186a.526.526 0 1 1-1.033-.194l.194-1.027a90.17 90.17 0 0 1-1.08-.048c-2.57-.129-4.933-.35-6.782-.642l-1.73 2.144a.525.525 0 1 1-.819-.66l1.367-1.694c-.172-.034-.338-.07-.495-.106-.682-.155-1.237-.328-1.644-.508Zm29.755 6.904c-.643-.285-1.433-.846-2.206-1.192-.409-.184-.808-.318-1.163-.185-.217.082-.4.27-.564.579-1.46 2.727-3.93 2.756-4.881 1.17-.29-.484-.717-1.125-1.212-1.572-.284-.257-.581-.463-.898-.443-.316.021-.597.283-.897.806-1.642 2.858-5.07 2.96-6.285.892-.29-.494-.552-.893-.812-1.176-.178-.193-.34-.331-.528-.353-.276-.032-.548.173-.914.539-.886.886-1.582 1.562-2.526 1.65-.64.059-1.415-.14-2.457-.794-.954-.6-1.586-.79-2.089-.748-.496.042-.847.303-1.235.518-.357.198-.732.379-1.196.447v13.515a5.144 5.144 0 0 0 5.146 5.145h19.57a5.145 5.145 0 0 0 5.147-5.145V15.435Zm-.915-8.599a1.96 1.96 0 0 0 .05-.048c.591-.592.962-.817.962-1.653V4.71a3.658 3.658 0 0 0-3.658-3.658H8.338A3.658 3.658 0 0 0 4.68 4.71v.425c0 .836.37 1.061.963 1.653l.036.037c4.61.61 9.218.92 13.827.926h.284c4.562-.007 9.124-.31 13.686-.915Zm-1.832 1.286c-8.45.96-16.9.902-25.351-.158a20.524 20.524 0 0 0 1.528.304l.011.001c1.855.31 4.295.544 6.96.677a97.91 97.91 0 0 0 1.695.07c2.979.099 6.135.075 9.006-.11a.528.528 0 0 1 .194-.014c2.103-.141 4.045-.37 5.643-.703a.54.54 0 0 1 .182-.039l.132-.028Zm-7.223 16.755c.015.053.03.107.043.16.284 1.107.2 2.292-.764 3.191-.43.402-1.25.809-2.236 1.13-1.403.457-3.148.758-4.478.71-.628-.023-1.17-.126-1.566-.308-.345-.16-.593-.382-.738-.652-.871-1.614-1.317-5.826 1.963-8.48 1.55-1.253 3.003-1.058 4.143-.448.47-1.209 1.558-1.39 1.558-1.39a.526.526 0 0 1 .515.193c.372.477.47 1.162.416 1.822-.017.21-.049.416-.086.609l1.837-1.433a.526.526 0 0 1 .647.83l-1.837 1.432c.195.01.403.03.611.065.653.109 1.294.371 1.665.847a.526.526 0 0 1 .062.546s-.447 1.027-1.755 1.176Zm-3.614-3.444a4.242 4.242 0 0 0-.17-.12c-.868-.576-2.055-.899-3.33.133-2.775 2.245-2.436 5.797-1.7 7.162.067.123.212.19.389.25.279.097.631.144 1.028.159 1.222.044 2.825-.24 4.114-.66.808-.262 1.493-.569 1.845-.898.65-.605.654-1.415.463-2.16-.157-.61-.446-1.186-.706-1.623l-.13.581a.526.526 0 0 1-1.027-.23l.188-.84-.86-.022a.525.525 0 1 1 .027-1.05l.654.016a5.822 5.822 0 0 0-.769-.686l-.016-.012Zm2.921 1.857c.096.17.194.354.29.55.45.01.756-.141.946-.294a2.408 2.408 0 0 0-.687-.2 4.723 4.723 0 0 0-.549-.056Zm-1.569-2.08a4.6 4.6 0 0 0 .07-.491 2.39 2.39 0 0 0-.028-.715c-.186.141-.397.384-.502.79.167.138.321.279.46.416Zm-3.911 4.332a.527.527 0 0 1 .655.823l-.146.116a.526.526 0 0 1-.655-.822l.146-.117Zm-1.611 1.298a.526.526 0 0 1 .655.823l-.146.116a.527.527 0 0 1-.655-.823l.146-.116Zm5.303-1.298a.526.526 0 0 1 .656.823l-.146.116a.526.526 0 0 1-.656-.822l.146-.117ZM19.708 26.9a.526.526 0 1 1 .655.823l-.146.116a.526.526 0 0 1-.655-.823l.146-.116Zm0-3.346a.526.526 0 1 1 .655.822l-.146.116a.526.526 0 1 1-.655-.822l.146-.116Zm-2.926.399a.526.526 0 0 1 .656.823l-.146.116a.526.526 0 1 1-.655-.822l.145-.117Zm1.32-2.186a.526.526 0 0 1 .655.823l-.146.116a.526.526 0 1 1-.655-.822l.146-.117ZM27.154 3.3a.526.526 0 1 1-.108-1.046c1.183-.122 2.424-.268 3.724-.443a.526.526 0 0 1 .14 1.043c-1.311.176-2.564.324-3.756.446ZM7.709 2.834a.526.526 0 1 1 .306-1.006s1.126.34 3.498.61a.526.526 0 1 1-.119 1.045c-2.5-.284-3.685-.649-3.685-.649Zm7.492.928a.526.526 0 0 1 .041-1.05c2.172.083 4.85.07 8.062-.143a.526.526 0 0 1 .07 1.05c-3.257.214-5.971.228-8.173.143Z" clip-rule="evenodd"/>
-							</svg>
-						</span>
-						<h2>CodeJam</h2>
-					</div>
+          <div class="cc-teaser cc-content-box codejam">
+            <div class="cc-teaser-head">
+              <span
+                name="codejam"
+                id="codejam"
+                class="cc-event-marker cc-event-marker-codejam">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 39 36"
+                  aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M3.476 15.533a4.773 4.773 0 0 1-.637-.179C1.482 14.88.774 14.131.399 13.422c-.587-1.113-.353-2.17-.353-2.17a.523.523 0 0 1 .17-.288L4.208 7.51l.015-.014.344-.297c-.621-.629-.94-1.047-.94-2.065V4.71A4.71 4.71 0 0 1 8.338 0H30.83a4.71 4.71 0 0 1 4.71 4.71v.425c0 1.016-.317 1.435-.936 2.062l.197.216.013.015 4.05 4.458c.107.118.155.279.13.437 0 0-.16.996-.738 1.89-.539.832-1.416 1.583-2.813 1.472v13.403a6.197 6.197 0 0 1-6.198 6.198H9.673a6.197 6.197 0 0 1-6.198-6.198V15.533Zm1.16-7.002-3.58 3.098c-.018.25-.01.765.274 1.302.282.534.835 1.072 1.857 1.431 1.273.447 1.837-.064 2.48-.41.36-.195.74-.353 1.204-.392.653-.055 1.498.127 2.737.905.77.485 1.327.681 1.8.638.317-.03.583-.175.849-.38.332-.254.657-.594 1.03-.967.68-.68 1.266-.9 1.78-.84.336.04.66.197.978.485.365.331.737.86 1.147 1.556.872 1.482 3.288 1.167 4.466-.882.545-.95 1.165-1.294 1.74-1.333.541-.035 1.087.212 1.58.631.61.52 1.147 1.303 1.5 1.893.617 1.028 2.106.642 3.052-1.126.315-.59.707-.91 1.123-1.067.417-.156.872-.146 1.344-.017.577.158 1.188.504 1.758.843.475.282.915.564 1.279.655l.017.005c1.45.35 2.188-.565 2.555-1.339.153-.324.246-.628.297-.828L34.286 8.41c-.505.211-1.101.401-1.774.571l1.656 1.835a.526.526 0 0 1-.78.705l-2.056-2.278c-1.452.284-3.152.494-4.983.637l.397 1.111a.526.526 0 1 1-.99.354l-.496-1.39c-2.69.168-5.6.202-8.378.124l-.224 1.186a.526.526 0 1 1-1.033-.194l.194-1.027a90.17 90.17 0 0 1-1.08-.048c-2.57-.129-4.933-.35-6.782-.642l-1.73 2.144a.525.525 0 1 1-.819-.66l1.367-1.694c-.172-.034-.338-.07-.495-.106-.682-.155-1.237-.328-1.644-.508Zm29.755 6.904c-.643-.285-1.433-.846-2.206-1.192-.409-.184-.808-.318-1.163-.185-.217.082-.4.27-.564.579-1.46 2.727-3.93 2.756-4.881 1.17-.29-.484-.717-1.125-1.212-1.572-.284-.257-.581-.463-.898-.443-.316.021-.597.283-.897.806-1.642 2.858-5.07 2.96-6.285.892-.29-.494-.552-.893-.812-1.176-.178-.193-.34-.331-.528-.353-.276-.032-.548.173-.914.539-.886.886-1.582 1.562-2.526 1.65-.64.059-1.415-.14-2.457-.794-.954-.6-1.586-.79-2.089-.748-.496.042-.847.303-1.235.518-.357.198-.732.379-1.196.447v13.515a5.144 5.144 0 0 0 5.146 5.145h19.57a5.145 5.145 0 0 0 5.147-5.145V15.435Zm-.915-8.599a1.96 1.96 0 0 0 .05-.048c.591-.592.962-.817.962-1.653V4.71a3.658 3.658 0 0 0-3.658-3.658H8.338A3.658 3.658 0 0 0 4.68 4.71v.425c0 .836.37 1.061.963 1.653l.036.037c4.61.61 9.218.92 13.827.926h.284c4.562-.007 9.124-.31 13.686-.915Zm-1.832 1.286c-8.45.96-16.9.902-25.351-.158a20.524 20.524 0 0 0 1.528.304l.011.001c1.855.31 4.295.544 6.96.677a97.91 97.91 0 0 0 1.695.07c2.979.099 6.135.075 9.006-.11a.528.528 0 0 1 .194-.014c2.103-.141 4.045-.37 5.643-.703a.54.54 0 0 1 .182-.039l.132-.028Zm-7.223 16.755c.015.053.03.107.043.16.284 1.107.2 2.292-.764 3.191-.43.402-1.25.809-2.236 1.13-1.403.457-3.148.758-4.478.71-.628-.023-1.17-.126-1.566-.308-.345-.16-.593-.382-.738-.652-.871-1.614-1.317-5.826 1.963-8.48 1.55-1.253 3.003-1.058 4.143-.448.47-1.209 1.558-1.39 1.558-1.39a.526.526 0 0 1 .515.193c.372.477.47 1.162.416 1.822-.017.21-.049.416-.086.609l1.837-1.433a.526.526 0 0 1 .647.83l-1.837 1.432c.195.01.403.03.611.065.653.109 1.294.371 1.665.847a.526.526 0 0 1 .062.546s-.447 1.027-1.755 1.176Zm-3.614-3.444a4.242 4.242 0 0 0-.17-.12c-.868-.576-2.055-.899-3.33.133-2.775 2.245-2.436 5.797-1.7 7.162.067.123.212.19.389.25.279.097.631.144 1.028.159 1.222.044 2.825-.24 4.114-.66.808-.262 1.493-.569 1.845-.898.65-.605.654-1.415.463-2.16-.157-.61-.446-1.186-.706-1.623l-.13.581a.526.526 0 0 1-1.027-.23l.188-.84-.86-.022a.525.525 0 1 1 .027-1.05l.654.016a5.822 5.822 0 0 0-.769-.686l-.016-.012Zm2.921 1.857c.096.17.194.354.29.55.45.01.756-.141.946-.294a2.408 2.408 0 0 0-.687-.2 4.723 4.723 0 0 0-.549-.056Zm-1.569-2.08a4.6 4.6 0 0 0 .07-.491 2.39 2.39 0 0 0-.028-.715c-.186.141-.397.384-.502.79.167.138.321.279.46.416Zm-3.911 4.332a.527.527 0 0 1 .655.823l-.146.116a.526.526 0 0 1-.655-.822l.146-.117Zm-1.611 1.298a.526.526 0 0 1 .655.823l-.146.116a.527.527 0 0 1-.655-.823l.146-.116Zm5.303-1.298a.526.526 0 0 1 .656.823l-.146.116a.526.526 0 0 1-.656-.822l.146-.117ZM19.708 26.9a.526.526 0 1 1 .655.823l-.146.116a.526.526 0 0 1-.655-.823l.146-.116Zm0-3.346a.526.526 0 1 1 .655.822l-.146.116a.526.526 0 1 1-.655-.822l.146-.116Zm-2.926.399a.526.526 0 0 1 .656.823l-.146.116a.526.526 0 1 1-.655-.822l.145-.117Zm1.32-2.186a.526.526 0 0 1 .655.823l-.146.116a.526.526 0 1 1-.655-.822l.146-.117ZM27.154 3.3a.526.526 0 1 1-.108-1.046c1.183-.122 2.424-.268 3.724-.443a.526.526 0 0 1 .14 1.043c-1.311.176-2.564.324-3.756.446ZM7.709 2.834a.526.526 0 1 1 .306-1.006s1.126.34 3.498.61a.526.526 0 1 1-.119 1.045c-2.5-.284-3.685-.649-3.685-.649Zm7.492.928a.526.526 0 0 1 .041-1.05c2.172.083 4.85.07 8.062-.143a.526.526 0 0 1 .07 1.05c-3.257.214-5.971.228-8.173.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              <h2>CodeJam</h2>
+            </div>
 
-					<div class="cc-teaser-content">
-						<time datetime="">Warmup - July 13, 2026</time>
-						<p><b>Warm up your coding skills at our hands-on CodeJam sessions!</b></p>
-						<p>Are you passionate about front-end development and have experience with OpenUI5 applications? Then don’t miss out on our OpenUI5-focused CodeJam! Join our <b>UI5 experts</b> as they dive into <b>advanced OpenUI5 topics.</b></p>
+            <div class="cc-teaser-content">
+              <time datetime="">Warmup - July 13, 2026</time>
+              <p>
+                <b>Warm up your coding skills at our hands-on CodeJam
+                  sessions!</b>
+              </p>
+              <p>
+                Are you passionate about front-end development and have
+                experience with OpenUI5 applications? Then don’t miss out on our
+                OpenUI5-focused CodeJam! Join our <b>UI5 experts</b> as they
+                dive into <b>advanced OpenUI5 topics.</b>
+              </p>
 
-						<p>Prefer back-end development? Our second CodeJam is tailored just for you! Led by <b>CAP experts</b> and <b>developer advocates</b>, this session will explore the powerful SAP Application Programming Model (CAP) and also dive into new CAP features.</p>
+              <p>
+                Prefer back-end development? Our second CodeJam is tailored just
+                for you! Led by <b>CAP experts</b> and
+                <b>developer advocates</b>, this session will explore the
+                powerful SAP Application Programming Model (CAP) and also dive
+                into new CAP features.
+              </p>
 
-						<p>Ready to level up your coding muscles? Join us at CodeJam and unlock new insights!</p>
-						<!-- <a href="https://recap-conf.dev/" target="_blank" hreflang="en" rel="noopener noreferrer"
+              <p>
+                Ready to level up your coding muscles? Join us at CodeJam and
+                unlock new insights!
+              </p>
+              <!-- <a href="https://recap-conf.dev/" target="_blank" hreflang="en" rel="noopener noreferrer"
 							title="Click to open CodeJam registration website. Opens in a new window.">Learn more and register</a> -->
-					</div>
-				</div>
+            </div>
+          </div>
 
-				<div class="cc-teaser cc-content-box ui5con">
-					<div class="cc-teaser-head">
-						<span name="ui5con" id="ui5con" class="cc-event-marker cc-event-marker-ui5con">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 324 155" aria-hidden="true">
-								<path fill="currentColor" d="M.009 93.09V.004h33.64v92.522a42.2 42.2 0 0 0 6.845 25.54 25.603 25.603 0 0 0 9.805 6.853 25.694 25.694 0 0 0 11.864 1.662 24.526 24.526 0 0 0 11.608-1.658 24.408 24.408 0 0 0 9.487-6.854 40.217 40.217 0 0 0 6.844-25.543V0h33.072v93.09a92.269 92.269 0 0 1-3.422 24.975 51.031 51.031 0 0 1-11.403 19.302 43.025 43.025 0 0 1-19.386 11.918 81.447 81.447 0 0 1-27.371 3.973 81.447 81.447 0 0 1-27.371-3.973 47.589 47.589 0 0 1-18.913-11.964 47.29 47.29 0 0 1-11.309-19.253A74.384 74.384 0 0 1 .006 93.091h.003Zm152.816 57.898V.003H185.9v150.985h-33.075Zm54.17-17.029 17.111-21.567a68.945 68.945 0 0 0 17.104 11.349 52.19 52.19 0 0 0 20.526 4.542c10.264 0 17.676-2.269 22.241-7.38a27.559 27.559 0 0 0 6.841-19.298 27.245 27.245 0 0 0-6.844-19.864 24.25 24.25 0 0 0-8.857-5.862 24.339 24.339 0 0 0-10.53-1.518 33.596 33.596 0 0 0-14.825 3.404 39.876 39.876 0 0 0-13.117 10.787l-21.666-6.814 6.273-81.17h92.372l-1.708 24.41h-65.005l-2.85 34.058a49.29 49.29 0 0 1 11.403-6.811 60.745 60.745 0 0 1 19.386-2.838 53.641 53.641 0 0 1 21.102 3.972 42.036 42.036 0 0 1 15.623 10.469 41.773 41.773 0 0 1 9.465 16.21 50.87 50.87 0 0 1 2.851 20.432 61.331 61.331 0 0 1-3.994 22.14 51.673 51.673 0 0 1-11.974 17.026 64.268 64.268 0 0 1-18.816 11.352 75.337 75.337 0 0 1-25.088 3.973 81.533 81.533 0 0 1-32.501-5.676 119.006 119.006 0 0 1-24.523-15.326Z"/>
-							</svg>
-						</span>
+          <div class="cc-teaser cc-content-box ui5con">
+            <div class="cc-teaser-head">
+              <span
+                name="ui5con"
+                id="ui5con"
+                class="cc-event-marker cc-event-marker-ui5con">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 324 155"
+                  aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M.009 93.09V.004h33.64v92.522a42.2 42.2 0 0 0 6.845 25.54 25.603 25.603 0 0 0 9.805 6.853 25.694 25.694 0 0 0 11.864 1.662 24.526 24.526 0 0 0 11.608-1.658 24.408 24.408 0 0 0 9.487-6.854 40.217 40.217 0 0 0 6.844-25.543V0h33.072v93.09a92.269 92.269 0 0 1-3.422 24.975 51.031 51.031 0 0 1-11.403 19.302 43.025 43.025 0 0 1-19.386 11.918 81.447 81.447 0 0 1-27.371 3.973 81.447 81.447 0 0 1-27.371-3.973 47.589 47.589 0 0 1-18.913-11.964 47.29 47.29 0 0 1-11.309-19.253A74.384 74.384 0 0 1 .006 93.091h.003Zm152.816 57.898V.003H185.9v150.985h-33.075Zm54.17-17.029 17.111-21.567a68.945 68.945 0 0 0 17.104 11.349 52.19 52.19 0 0 0 20.526 4.542c10.264 0 17.676-2.269 22.241-7.38a27.559 27.559 0 0 0 6.841-19.298 27.245 27.245 0 0 0-6.844-19.864 24.25 24.25 0 0 0-8.857-5.862 24.339 24.339 0 0 0-10.53-1.518 33.596 33.596 0 0 0-14.825 3.404 39.876 39.876 0 0 0-13.117 10.787l-21.666-6.814 6.273-81.17h92.372l-1.708 24.41h-65.005l-2.85 34.058a49.29 49.29 0 0 1 11.403-6.811 60.745 60.745 0 0 1 19.386-2.838 53.641 53.641 0 0 1 21.102 3.972 42.036 42.036 0 0 1 15.623 10.469 41.773 41.773 0 0 1 9.465 16.21 50.87 50.87 0 0 1 2.851 20.432 61.331 61.331 0 0 1-3.994 22.14 51.673 51.673 0 0 1-11.974 17.026 64.268 64.268 0 0 1-18.816 11.352 75.337 75.337 0 0 1-25.088 3.973 81.533 81.533 0 0 1-32.501-5.676 119.006 119.006 0 0 1-24.523-15.326Z" />
+                </svg>
+              </span>
 
-						<h2>UI5con</h2>
+              <h2>UI5con</h2>
+            </div>
+            <div class="cc-teaser-content">
+              <time datetime="">July 14, 2026</time>
+              <p>
+                Build your UI5 mastery at UI5con, the cornerstone gathering for
+                developers at every level.<br /><br />
+                Tap into a robust toolkit of knowledge, discover the latest UI5
+                innovations, and form meaningful connections. Through expert-led
+                sessions, hands-on workshops, and open conversations, ideas
+                become patterns, best practices turn into building blocks, and
+                the community collaborates with the UI5 creators to craft
+                sustainable, delightful UIs. Ready to help shape what’s next?
+                Join UI5con and lay the foundation for the future.
+              </p>
+              <a
+                href="https://openui5.org/ui5con/"
+                target="_blank"
+                hreflang="en"
+                rel="noopener noreferrer"
+                title="Click to open UI5con conf website. Opens in a new window.">
+                Learn more about UI5con
+              </a>
+            </div>
+          </div>
 
-					</div>
-					<div class="cc-teaser-content">
-						<time datetime="">July 14, 2026</time>
-						<p>Build your UI5 mastery at UI5con, the cornerstone gathering for developers at every level.<br><br>
-						Tap into a robust toolkit of knowledge, discover the latest UI5 innovations, and form meaningful connections. Through expert-led sessions, hands-on workshops,
-						and open conversations, ideas become patterns, best practices turn into building blocks, and the community collaborates
-						with the UI5 creators to craft sustainable, delightful UIs. Ready to help shape what’s next? Join UI5con and lay the foundation for the future.
-						</p>
-						<a href="https://openui5.org/ui5con/" target="_blank" hreflang="en" rel="noopener noreferrer"
-							title="Click to open UI5con conf website. Opens in a new window.">Learn more about UI5con</a>
-					</div>
-				</div>
+          <div class="cc-teaser cc-content-box recap">
+            <div class="cc-teaser-head">
+              <span
+                name="recap"
+                id="recap"
+                class="cc-event-marker cc-event-marker-recap">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 -50 275 275"
+                  aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M8.15 136.29s-10.4 5.84 2.75 13.34c11.7 6.67 25.76-.25 25.76-.25l-11.44-14.92-17.08 1.83ZM272.48 111.53c0 4.74-.23 9.05-.66 12.57-.58 4.78-1.51 8.09-2.67 9.01-.13.11-.26.19-.39.23-32.75 11.78-77.43.19-79.44-.34 0 0-64.36-22.43-115.94-26.43.08-.03.15-.07.23-.1-.17 0-.26.08-.42.08h-.04v-.02l21.14-54.54s2.47-7.4 8.01-15.7c4.69-7.05 11.58-14.74 21.07-19.11 7.23-3.3 16.15-5.31 25.03-6.54 5.76-.8 11.5-1.27 16.75-1.54h.09c7.86-.4 16.39-.78 16.39-.78.83-5.42 6.41-6.09 8.48-5.77 4.75.72 7.28 3.95 6.53 8.06 0 0 33.45 15.65 41.65 22.32 3.81 3.09 19.39 18.53 26.38 34.22A73.05 73.05 0 0 1 268.81 79c2.61 10.39 3.68 22.43 3.69 32.53Z" />
+                  <path
+                    d="M189.31 133.01c-1.12 1.16-21.09 21.66-48.16 34.86-6.19-11.33-30.43-51.42-67.85-61.26.02 0 .05-.02.07-.03 51.58 4 115.94 26.43 115.94 26.43Z"
+                    fill="currentColor" />
+                  <path
+                    d="M141.15 167.87c-9.91 4.83-20.77 8.68-32.01 10.24-6.29.88-12.69 1.03-19.1.24 1.48-19.04 2.1-58.81-16.79-71.71.02 0 .04-.02.06-.03 37.41 9.84 61.65 49.93 67.85 61.26Z"
+                    fill="currentColor" />
+                  <path
+                    d="M90.03 178.36c-.86-.1-1.72-.23-2.58-.37-8.56-1.39-17.12-4.5-25.45-9.88-13.15-8.49-44.65-32.68-54.14-31.59h-.09l.12-.02c-1.16.14 17.7-8.44 36.8-17.03l-.16-.06h.29c4.04-1.82 8.09-3.64 11.96-5.38 6.2-2.78 11.94-5.36 16.46-7.39 18.9 12.9 18.28 52.68 16.79 71.71Z"
+                    fill="currentColor" />
+                </svg>
+              </span>
 
-				<div class="cc-teaser cc-content-box recap">
-					<div class="cc-teaser-head">
-						<span name="recap" id="recap" class="cc-event-marker cc-event-marker-recap">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -50 275 275" aria-hidden="true">
-								<path fill="currentColor" d="M8.15 136.29s-10.4 5.84 2.75 13.34c11.7 6.67 25.76-.25 25.76-.25l-11.44-14.92-17.08 1.83ZM272.48 111.53c0 4.74-.23 9.05-.66 12.57-.58 4.78-1.51 8.09-2.67 9.01-.13.11-.26.19-.39.23-32.75 11.78-77.43.19-79.44-.34 0 0-64.36-22.43-115.94-26.43.08-.03.15-.07.23-.1-.17 0-.26.08-.42.08h-.04v-.02l21.14-54.54s2.47-7.4 8.01-15.7c4.69-7.05 11.58-14.74 21.07-19.11 7.23-3.3 16.15-5.31 25.03-6.54 5.76-.8 11.5-1.27 16.75-1.54h.09c7.86-.4 16.39-.78 16.39-.78.83-5.42 6.41-6.09 8.48-5.77 4.75.72 7.28 3.95 6.53 8.06 0 0 33.45 15.65 41.65 22.32 3.81 3.09 19.39 18.53 26.38 34.22A73.05 73.05 0 0 1 268.81 79c2.61 10.39 3.68 22.43 3.69 32.53Z"/>
-								<path d="M189.31 133.01c-1.12 1.16-21.09 21.66-48.16 34.86-6.19-11.33-30.43-51.42-67.85-61.26.02 0 .05-.02.07-.03 51.58 4 115.94 26.43 115.94 26.43Z" fill="currentColor"/>
-								<path d="M141.15 167.87c-9.91 4.83-20.77 8.68-32.01 10.24-6.29.88-12.69 1.03-19.1.24 1.48-19.04 2.1-58.81-16.79-71.71.02 0 .04-.02.06-.03 37.41 9.84 61.65 49.93 67.85 61.26Z" fill="currentColor"/>
-								<path d="M90.03 178.36c-.86-.1-1.72-.23-2.58-.37-8.56-1.39-17.12-4.5-25.45-9.88-13.15-8.49-44.65-32.68-54.14-31.59h-.09l.12-.02c-1.16.14 17.7-8.44 36.8-17.03l-.16-.06h.29c4.04-1.82 8.09-3.64 11.96-5.38 6.2-2.78 11.94-5.36 16.46-7.39 18.9 12.9 18.28 52.68 16.79 71.71Z" fill="currentColor"/>
-							</svg>
-						</span>
+              <h2>re>≡CAP</h2>
+            </div>
 
-						<h2>re>≡CAP</h2>
-					</div>
+            <div class="cc-teaser-content">
+              <time datetime="">July 15, 2026</time>
+              <p>
+                Join the awesome developer conference all about the SAP Cloud
+                Application Programming Model (CAP). The time of the year where
+                our lively communities, customers, and partners meet the CAP
+                Product Team and exchange best practices, technical concepts,
+                current projects, ideas for the future, and way more.
+              </p>
+              <a
+                href="https://recap-conf.dev/"
+                target="_blank"
+                hreflang="en"
+                rel="noopener noreferrer"
+                title="Click to open reCAP conf website. Opens in a new window.">
+                Learn more about reCAP
+              </a>
+            </div>
+          </div>
 
-					<div class="cc-teaser-content">
-						<time datetime="">July 15, 2026</time>
-						<p>Join the awesome developer conference all about the SAP Cloud Application Programming Model (CAP). The time of
-							the year where our lively communities, customers, and partners meet the CAP Product Team and exchange best
-							practices, technical concepts, current projects, ideas for the future, and way more.</p>
-						<a href="https://recap-conf.dev/" target="_blank" hreflang="en" rel="noopener noreferrer"
-							title="Click to open reCAP conf website. Opens in a new window.">Learn more about reCAP</a>
-					</div>
-				</div>
+          <div class="cc-teaser cc-content-box hanaconf">
+            <div class="cc-teaser-head">
+              <span
+                name="hanaconf"
+                id="hanaconf"
+                class="cc-event-marker cc-event-marker-hanaconf">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 500 500"
+                  aria-hidden="true">
+                  <rect
+                    width="244"
+                    height="244"
+                    x="128"
+                    y="128"
+                    fill="currentColor"
+                    rx="20" />
+                  <rect
+                    width="84"
+                    height="31"
+                    x="25"
+                    y="314"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="84"
+                    height="31"
+                    x="24"
+                    y="261"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="84"
+                    height="31"
+                    x="25"
+                    y="208"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="84"
+                    height="31"
+                    x="25"
+                    y="155"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="84"
+                    height="31"
+                    x="392"
+                    y="155"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="84"
+                    height="31"
+                    x="392"
+                    y="208"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="84"
+                    height="31"
+                    x="392"
+                    y="261"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="84"
+                    height="31"
+                    x="392"
+                    y="314"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="31"
+                    height="84"
+                    x="314"
+                    y="25"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="31"
+                    height="84"
+                    x="261"
+                    y="25"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="31"
+                    height="84"
+                    x="208"
+                    y="25"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="31"
+                    height="84"
+                    x="155"
+                    y="25"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="31"
+                    height="84"
+                    x="314"
+                    y="392"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="31"
+                    height="84"
+                    x="261"
+                    y="392"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="31"
+                    height="84"
+                    x="208"
+                    y="392"
+                    fill="currentColor"
+                    rx="15.5" />
+                  <rect
+                    width="31"
+                    height="84"
+                    x="155"
+                    y="392"
+                    fill="currentColor"
+                    rx="15.5" />
+                </svg>
+              </span>
 
+              <h2>HANA<br aria-hidden="true" />Tech Con</h2>
+            </div>
+            <div class="cc-teaser-content">
+              <time datetime="">July 16, 2026</time>
+              <p>
+                Stay Connected! If there is anything about SAP HANA you always
+                wanted to know but never dared to ask - this is the place for
+                you! Be part of the community of development experts, users and
+                partners to exchange, ignite and delight.
+              </p>
+              <p>
+                Get Involved! If you want to speak up in your own session
+                worthwhile to be shared with this great community. Looking
+                forward to see you there soon!
+              </p>
+              <a
+                href="https://hanatech.community"
+                target="_blank"
+                hreflang="en"
+                rel="noopener noreferrer"
+                title="Click to open HANA Tech Con website. Opens in a new window."
+                >Learn more about HANA Tech Con
+              </a>
+            </div>
+          </div>
+        </section>
 
+        <section class="infos">
+          <div class="cc-teaser cc-sponsors cc-content-box">
+            <div class="cc-teaser-head">
+              <span
+                class="cc-event-marker cc-event-marker-codeconnect"
+                name="codeconnect"
+                id="codeconnect">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 37 33"
+                  aria-hidden="true">
+                  <path
+                    fill="#fff"
+                    d="M18.5 33c-.469 0-.89-.188-1.266-.563L3.524 18.517a10.147 10.147 0 0 1-2.25-3.375A11.057 11.057 0 0 1 .5 11.062c0-1.406.258-2.742.773-4.007.563-1.313 1.313-2.438 2.25-3.375a11.134 11.134 0 0 1 3.235-2.25C8.023.867 9.383.586 10.836.586c1.781 0 3.305.422 4.57 1.266 1.266.796 2.297 1.71 3.094 2.742.797-1.078 1.828-2.016 3.094-2.813C22.859.984 24.383.586 26.164.586c1.453 0 2.79.281 4.008.844a10.863 10.863 0 0 1 3.305 2.25c.937.937 1.664 2.062 2.18 3.375a9.757 9.757 0 0 1 .843 4.008c0 1.406-.258 2.765-.773 4.078a10.149 10.149 0 0 1-2.25 3.375L19.766 32.438c-.282.374-.703.562-1.266.562ZM10.836 4.172c-.938 0-1.828.187-2.672.562-.797.375-1.5.891-2.11 1.547a7.157 7.157 0 0 0-1.476 2.18 6.767 6.767 0 0 0-.492 2.601c0 .938.164 1.829.492 2.672.328.844.82 1.594 1.477 2.25L18.5 28.641l12.445-12.657a6.47 6.47 0 0 0 1.477-2.25 7.307 7.307 0 0 0 .492-2.671c0-.938-.187-1.805-.562-2.602a6.24 6.24 0 0 0-1.407-2.18 6.032 6.032 0 0 0-4.64-2.11c-1.5 0-2.79.47-3.867 1.407-1.032.89-1.711 1.875-2.04 2.953-.375 1.172-1.007 1.758-1.898 1.758a1.78 1.78 0 0 1-1.055-.351c-.328-.235-.539-.516-.633-.844 0-.094-.117-.399-.351-.914-.188-.516-.516-1.055-.984-1.617-.47-.61-1.079-1.149-1.829-1.618-.75-.515-1.687-.773-2.812-.773Z" />
+                </svg>
+              </span>
+              <h2>Sponsors</h2>
+            </div>
+            <div class="cc-teaser-content">
+              <p>
+                Be a part of Code Connect 2026 and become a sponsor to support
+                and unite the developer community at UI5con, reCAP, and HANA
+                Tech Con.
+              </p>
 
-				<div class="cc-teaser cc-content-box hanaconf">
-					<div class="cc-teaser-head">
-						<span name="hanaconf" id="hanaconf" class="cc-event-marker cc-event-marker-hanaconf">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 500 500" aria-hidden="true">
-								<rect width="244" height="244" x="128" y="128" fill="currentColor" rx="20"/>
-								<rect width="84" height="31" x="25" y="314" fill="currentColor" rx="15.5"/>
-								<rect width="84" height="31" x="24" y="261" fill="currentColor" rx="15.5"/>
-								<rect width="84" height="31" x="25" y="208" fill="currentColor" rx="15.5"/>
-								<rect width="84" height="31" x="25" y="155" fill="currentColor" rx="15.5"/>
-								<rect width="84" height="31" x="392" y="155" fill="currentColor" rx="15.5"/>
-								<rect width="84" height="31" x="392" y="208" fill="currentColor" rx="15.5"/>
-								<rect width="84" height="31" x="392" y="261" fill="currentColor" rx="15.5"/>
-								<rect width="84" height="31" x="392" y="314" fill="currentColor" rx="15.5"/>
-								<rect width="31" height="84" x="314" y="25" fill="currentColor" rx="15.5"/>
-								<rect width="31" height="84" x="261" y="25" fill="currentColor" rx="15.5"/>
-								<rect width="31" height="84" x="208" y="25" fill="currentColor" rx="15.5"/>
-								<rect width="31" height="84" x="155" y="25" fill="currentColor" rx="15.5"/>
-								<rect width="31" height="84" x="314" y="392" fill="currentColor" rx="15.5"/>
-								<rect width="31" height="84" x="261" y="392" fill="currentColor" rx="15.5"/>
-								<rect width="31" height="84" x="208" y="392" fill="currentColor" rx="15.5"/>
-								<rect width="31" height="84" x="155" y="392" fill="currentColor" rx="15.5"/>
-							</svg>
-						</span>
-
-						<h2>HANA<br aria-hidden="true" />Tech Con</h2>
-					</div>
-					<div class="cc-teaser-content">
-						<time datetime="">July 16, 2026</time>
-						<p>Stay Connected! If there is anything about SAP HANA you always wanted to know but never dared to ask - this is the place for you! Be part of the community of development experts, users and partners to exchange, ignite and delight.</p>
-						<p>Get Involved! If you want to speak up in your own session worthwhile to be shared with this great community. Looking forward to see you there soon!</p>
-						<a href="https://hanatech.community" target="_blank" hreflang="en" rel="noopener noreferrer"
-							title="Click to open HANA Tech Con website. Opens in a new window.">Learn more about HANA Tech Con</a>
-					</div>
-				</div>
-
-			</section>
-
-			<section class="infos">
-				<div class="cc-teaser cc-sponsors cc-content-box">
-					<div class="cc-teaser-head">
-						<span class="cc-event-marker cc-event-marker-codeconnect" name="codeconnect" id="codeconnect">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 37 33" aria-hidden="true">
-								<path fill="#fff" d="M18.5 33c-.469 0-.89-.188-1.266-.563L3.524 18.517a10.147 10.147 0 0 1-2.25-3.375A11.057 11.057 0 0 1 .5 11.062c0-1.406.258-2.742.773-4.007.563-1.313 1.313-2.438 2.25-3.375a11.134 11.134 0 0 1 3.235-2.25C8.023.867 9.383.586 10.836.586c1.781 0 3.305.422 4.57 1.266 1.266.796 2.297 1.71 3.094 2.742.797-1.078 1.828-2.016 3.094-2.813C22.859.984 24.383.586 26.164.586c1.453 0 2.79.281 4.008.844a10.863 10.863 0 0 1 3.305 2.25c.937.937 1.664 2.062 2.18 3.375a9.757 9.757 0 0 1 .843 4.008c0 1.406-.258 2.765-.773 4.078a10.149 10.149 0 0 1-2.25 3.375L19.766 32.438c-.282.374-.703.562-1.266.562ZM10.836 4.172c-.938 0-1.828.187-2.672.562-.797.375-1.5.891-2.11 1.547a7.157 7.157 0 0 0-1.476 2.18 6.767 6.767 0 0 0-.492 2.601c0 .938.164 1.829.492 2.672.328.844.82 1.594 1.477 2.25L18.5 28.641l12.445-12.657a6.47 6.47 0 0 0 1.477-2.25 7.307 7.307 0 0 0 .492-2.671c0-.938-.187-1.805-.562-2.602a6.24 6.24 0 0 0-1.407-2.18 6.032 6.032 0 0 0-4.64-2.11c-1.5 0-2.79.47-3.867 1.407-1.032.89-1.711 1.875-2.04 2.953-.375 1.172-1.007 1.758-1.898 1.758a1.78 1.78 0 0 1-1.055-.351c-.328-.235-.539-.516-.633-.844 0-.094-.117-.399-.351-.914-.188-.516-.516-1.055-.984-1.617-.47-.61-1.079-1.149-1.829-1.618-.75-.515-1.687-.773-2.812-.773Z"/>
-							</svg>
-						</span>
-						<h2>Sponsors</h2>
-					</div>
-					<div class="cc-teaser-content">
-
-						<p>Be a part of Code Connect 2026 and become a sponsor to support and unite the developer community at UI5con, reCAP, and HANA Tech Con. </p>
-
-						<!-- <div class="cc-logo-container">
+              <!-- <div class="cc-logo-container">
 							<a href="https://www.brandeis.de/" rel="external nofollow" aria-label="Brandeis Consulting GmbH" hreflang="en" target="_blank"  title="Click to open asbrucon home page. Opens in a new tab.">
 
 								<svg class="brandeis" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="none" viewBox="0 0 1746 532">
@@ -321,35 +729,36 @@
 							</a>
 						</div> -->
 
-						<a href="sponsoring.html">Become a sponsor</a>
-					</div>
-				</div>
-			</section>
+              <a href="sponsoring.html">Become a sponsor</a>
+            </div>
+          </div>
+        </section>
+      </main>
 
-		</main>
+      <footer>
+        <div>
+          <a
+            href="mailto:contact@code-connect.dev?subject=[CodeConnect 2026] Question"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="contact us via mail">
+            Contact us
+          </a>
 
-		<footer>
-			<div>
-				<a href="mailto:contact@code-connect.dev?subject=[CodeConnect 2026] Question" target="_blank" rel="noopener noreferrer" title="contact us via mail">
-					Contact us
-				</a>
+          <a href="https://www.computerservice-wolf.com/impressum.html">Legal Disclaimer</a>
 
-				<a href="https://www.computerservice-wolf.com/impressum.html">Legal Disclaimer</a>
+          <a href="https://bsky.app/profile/code-connect.bsky.social">bluesky</a>
 
-				<a href="https://bsky.app/profile/code-connect.bsky.social">bluesky</a>
+          <a href="https://linkedin.com/company/code-connect-dev">LinkedIn</a>
+        </div>
+      </footer>
+    </div>
 
-				<a href="https://linkedin.com/company/code-connect-dev">LinkedIn</a>
-			</div>
-		</footer>
-	</div>
-
-
-	<script>
-		function toggleCalendars() {
-			var container = document.getElementById("links-container");
-			container.classList.toggle("open");
-		}
-	</script>
-</body>
-
+    <script>
+      function toggleCalendars() {
+        var container = document.getElementById("links-container");
+        container.classList.toggle("open");
+      }
+    </script>
+  </body>
 </html>
