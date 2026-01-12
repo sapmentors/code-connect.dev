@@ -1,4 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1440 4362">
+  <style>
+    @keyframes colorShift {
+      0% { fill: currentColor; }
+      20% { fill: #f16a36; }
+      40% { fill: #d9d100; }
+      60% { fill: #35f2d4; }
+      80% { fill: #8838ec; }
+      100% { fill: currentColor; }
+    }
+    
+    path {
+      animation: colorShift 12s infinite;
+    }
+    
+    /* More random staggering for diverse colors */
+    path:nth-child(6n+1) { animation-delay: -2s; animation-duration: 11s; }
+    path:nth-child(6n+2) { animation-delay: -5s; animation-duration: 13s; }
+    path:nth-child(6n+3) { animation-delay: -8s; animation-duration: 12s; }
+    path:nth-child(6n+4) { animation-delay: -1s; animation-duration: 14s; }
+    path:nth-child(6n+5) { animation-delay: -6s; animation-duration: 11s; }
+    path:nth-child(6n) { animation-delay: -9s; animation-duration: 13s; }
+    
+    path:nth-child(7n+1) { animation-delay: -3s; }
+    path:nth-child(7n+3) { animation-delay: -7s; }
+    path:nth-child(7n+5) { animation-delay: -4s; }
+  </style>
   <g opacity=".2">
     <path fill="#f16a36" d="M1085.48 4511.68v-180.96H904.504v180.96z"/>
     <path fill="#d9d100" d="M904.631 4511.68v-180.96H723.654v180.96z"/>
