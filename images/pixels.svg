@@ -2,10 +2,9 @@
   <style>
     @keyframes colorShift {
       0% { fill: currentColor; }
-      20% { fill: #f16a36; }
-      40% { fill: #d9d100; }
-      60% { fill: #35f2d4; }
-      80% { fill: #8838ec; }
+      25% { fill: #f16a36; }
+      50% { fill: #35f2d4; }
+      75% { fill: #8838ec; }
       100% { fill: currentColor; }
     }
     
